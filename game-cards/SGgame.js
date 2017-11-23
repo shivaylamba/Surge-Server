@@ -1284,7 +1284,8 @@ exports.commands = {
 	'!stonelist': true,
 	stonelist: function (target, room, user) {
 		if (!this.can('broadcast')) return;
-		this.sendReplyBox('<b><u>Available Mega Stones List:</u></b><br><a href="https://pastebin.com/gvsPjMk8">Mega Stones List.</a>');
+		this.runBroadcast();
+		this.sendReplyBox('<b><u>Available Mega Stones List:</u></b><br><a href="https://pastebin.com/AukmnXjP">Mega Stones List.</a>');
 	},
 	exportteam: function (target, room, user) {
 		// Allow users to save their SGgame teams to teambuilder
