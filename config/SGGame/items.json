@@ -914,16 +914,167 @@
         "use": {
             "battleOnly": true
         }
-    }, 
-  "gengarite": {
-    "id": "gengarite",
-    "name": "Gengarite",
-    "slot": "items",
-    "use": {
-      "battleOnly": true
-      }
     },
-    
+    "blazikenite": {
+        "id": "blazikenitee",
+        "name": "blazikenite",
+        "slot": "items",
+        "use": {
+         "battleOnly": true
+        }
+   },
+   "aerodactylite": {
+       "id": "aerodactylite",
+       "name": "Aerodactylite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "cameruptite": {
+       "id": "cameruptite",
+       "name": "Cameruptite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "diancite": {
+       "id": "diancite",
+       "name": "Diancite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "galladite": {
+       "id": "galladite",
+       "name": "Galladite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "gengarite": {
+       "id": "gengarite",
+       "name": "Gengarite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "garchompite": {
+       "id": "garchompite",
+       "name": "Garchompite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "gardevoirite": {
+       "id": "gardevoirite",
+       "name": "Gardevoirite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "glalitite": {
+       "id": "glalitite",
+       "name": "Glalitite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "latiasite": {
+       "id": "latiasite",
+       "name": "Latiasite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "kangaskhanite": {
+       "id": "kangaskhanite",
+       "name": "Kangaskhanite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "houndoominite": {
+       "id": "houndoominite",
+       "name": "Houndoominite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "heracronite": {
+       "id": "heracronite",
+       "name": "Heracronite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "gyaradosite": {
+       "id": "gyaradosite",
+       "name": "Gyaradosite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "metagrossite": {
+       "id": "metagrossite",
+       "name": "Metagrossite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "medichamite": {
+       "id": "medichamite",
+       "name": "Medichamite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "mawilite": {
+       "id": "mawilite",
+       "name": "Mawilite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "manectite": {
+       "id": "manectite",
+       "name": "Manectite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "lopunnite": {
+       "id": "lopunnite",
+       "name": "Lopunnite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
+   "latiosite": {
+       "id": "latiosite",
+       "name": "Latiosite",
+       "slot": "items",
+       "use": {
+         "battleOnly": true
+        }
+   },
     "thunderstone": {
         "id": "thunderstone",
         "name": "Thunder Stone",
