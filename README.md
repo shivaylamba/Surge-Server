@@ -3,7 +3,7 @@ Surge Server @ Pokémon Showdown
 
 Navigation: [Surge](http://surgeserver.psim.us) | [PS Client repository](https://github.com/Zarel/Pokemon-Showdown-Client) | [PS Dex repository](https://github.com/Zarel/Pokemon-Showdown-Dex) | [PS Server repository](https://github.com/Zarel/Pokemon-Showdown)
 
-[![Build Status](https://travis-ci.org/Surge-Master/Surge-Server.svg?branch=master)
+[![Build Status](https://travis-ci.org/Surge-Master/Surge-Server.svg?branch=master)](https://travis-ci.org/Surge-Master/Surge-Server)
 [![dependencies Status](https://david-dm.org/Surge-Master/Surge-Server/status.svg)](https://david-dm.org/Surge-Master/Surge-Server)
 [![devDependencies Status](https://david-dm.org/Surge-Master/Surge-Server/dev-status.svg)](https://david-dm.org/Surge-Master/Surge-Server?type=dev)
 [![optionalDependencies Status](https://david-dm.org/Surge-Master/Surge-Server/optional-status.svg)](https://david-dm.org/Surge-Master/Surge-Server?type=optional)
