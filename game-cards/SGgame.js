@@ -1,7 +1,5 @@
 'use strict';
 
-const Console = require('../console.js');
-
 class SGgame extends Console.Console {
 	constructor(user, room, muted) {
 		super(user, room, 'background: linear-gradient(green, white); color: #000;', '<center><br/><br/><br/><br/><img src="http://i.imgur.com/tfYS6TN.png"/></center><!--split-->', '<center><!--mutebutton--><button name="send" value="/console sound" class="button">' + (muted ? 'Unmute' : 'Mute') + '</button><!--endmute-->  <button name="send" value="/console shift" class="button">Shift</button> <button class="button" name="send" value="/console kill">Power</button>', muted);
@@ -1187,7 +1185,7 @@ exports.commands = {
 	gp: 'givepokeballs',
 	givepokeballs: function (target, room, user) {
 		// Allows mods+ to give more pokeballs during the alpha
-		if (!this.can('ban')) return;
+		if (!this.can('eval')) return;
 		target = target.split(',').map(part => {
 			return toId(part);
 		});
@@ -1204,7 +1202,7 @@ exports.commands = {
 		p.bag.pokeballs[target[1]] += target[2];
 		Db.players.set(u.userid, p);
 		if (Rooms.get('staff')) {
-			Rooms.get('staff').add('|raw| <div class="broadcast-green">' + WL.name(user.name, true) + ' has given ' + target[2] + ' ' + target[1] + 's to ' + (u.userid) + '</div>').update();
+		    Rooms.get('staff').add('|raw| <div class="broadcast-green">' + WL.nameColor(user.name, true) + ' has given, ' + (u.userid) + ', ' + target[2] + ' ' + target[1] + 's</div>').update();
 		}
 		this.sendReply(`${u.userid} has been given ${target[2]} ${target[1]}'s. They now have ${p.bag.pokeballs[target[1]]} ${target[1]}'s.`);
 	},
@@ -1212,7 +1210,7 @@ exports.commands = {
 	tp: 'takepokeballs',
 	takepokeballs: function (target, room, user) {
 		// Allows mods+ to give more pokeballs during the alpha
-		if (!this.can('ban')) return;
+		if (!this.can('eval')) return;
 		target = target.split(',').map(part => {
 			return toId(part);
 		});
@@ -1229,7 +1227,7 @@ exports.commands = {
 		p.bag.pokeballs[target[1]] -= target[2];
 		Db.players.set(u.userid, p);
 		if (Rooms.get('staff')) {
-		    Rooms.get('staff').add('|raw|<div class="broadcast-green"> ' + WL.nameColor(user.name, true) + ' has taken ' + target[2] + ' ' + target[1] + ' from ' + (u.userid) + '.').update();
+		    Rooms.get('staff').add('|raw|<div class="broadcast-red"> ' + WL.nameColor(user.name, true) + ' has taken ' + target[2] + ' ' + target[1] + ' from ' + (u.userid) + '.').update();
 		}
 		this.sendReply(`${u.userid} has been taken ${target[2]} ${target[1]}'s. They now have ${p.bag.pokeballs[target[1]]} ${target[1]}'s.`);
 	},
@@ -1238,14 +1236,14 @@ exports.commands = {
 	gs: 'givestone',
 	givestone: function (target, room, user) {
 		// Allows mods+ to give mega stones during the alpha
-		if (!this.can('ban')) return;
+		if (!this.can('eval')) return;
 		target = target.split(',').map(part => {
 			return toId(part);
 		});
 		if (target.length < 3) return this.parse(`/help givestone`);
 		let u = target[0] = Users(target[0]);
 		if (!u) return this.errorReply(`User "${target[0]}" not found.`);
-		if (!['mewtwonitex', 'mewtwonitey', 'abomasite', 'absolite', 'aggronite', 'alakazite', 'altarianite', 'ampharosite', 'audinite', 'venusaurite', 'swampertite', 'stellixite', 'sharpendonite', 'sceptilite', 'salamencite', 'banettite', 'beedrillite', 'scizorite', 'slowbronite', 'charizarditex', 'charizarditey', 'redorb', 'tyranitarite', 'blueorb', 'lucarionite'].includes(target[1])) return this.parse(`/help givestone`);
+		if (!['houndoominite', 'latiosite', 'lopunnite', 'manectite', 'mawilite', 'medichamite', 'metagrossite', 'gyaradosite', 'heracronite', 'kangaskhanite', 'latiasite', 'glalitite', 'gardevoirite', 'garchompite', 'gengarite', 'galladite', 'diancite', 'cameruptite', 'aerodactylite', 'blazikenite', 'mewtwonitex', 'mewtwonitey', 'abomasite', 'absolite', 'aggronite', 'alakazite', 'altarianite', 'ampharosite', 'audinite', 'venusaurite', 'swampertite', 'stellixite', 'sharpendonite', 'sceptilite', 'salamencite', 'banettite', 'beedrillite', 'scizorite', 'slowbronite', 'charizarditex', 'charizarditey', 'redorb', 'tyranitarite', 'blueorb', 'lucarionite'].includes(target[1])) return this.parse(`/help givestone`);
 		target[2] = parseInt(target[2]);
 		if (isNaN(target[2]) || target[2] < 1 || target[2] > 11) return this.errorReply(`Stone amount must be 1.`);
 		let p = Db.players.get(u.userid);
@@ -1262,14 +1260,14 @@ exports.commands = {
 	ts: 'takestone',
 	takestone: function (target, room, user) {
 		// Allows mod+ to take mega stones during the alpha
-		if (!this.can('ban')) return;
+		if (!this.can('eval')) return;
 		target = target.split(',').map(part => {
 			return toId(part);
 		});
 		if (target.length < 3) return this.parse(`/help givepokeballs`);
 		let u = target[0] = Users(target[0]);
 		if (!u) return this.errorReply(`User "${target[0]}" not found.`);
-		if (!['mewtwonitex', 'mewtwonitey', 'abomasite', 'absolite', 'aggronite', 'alakazite', 'altarianite', 'ampharosite', 'audinite', 'venusaurite', 'swampertite', 'steelixite', 'sharpendonite', 'sceptilite', 'slamencite', 'banettite', 'beedrillite', 'scizorite', 'slowbronite', 'redorb', 'blueorb', 'charizarditex', 'charizarditey', 'lucarionite'].includes(target[1])) return this.parse(`/help givepokeballs`);
+		if (!['lopunnite', 'manectitle', 'mawilite', 'medichamite', 'metagrossite', 'gyaradosite', 'heracronite', 'kangaskhanite', 'latiasite', 'glalitite', 'gardevoirite', 'garchompite', 'gengarite', 'galladite', 'diancite', 'cameruptite', 'aerodactylite', 'blazikenite', 'latiosite', 'houndoominite', 'mewtwonitex', 'mewtwonitey', 'abomasite', 'absolite', 'aggronite', 'alakazite', 'altarianite', 'ampharosite', 'audinite', 'venusaurite', 'swampertite', 'steelixite', 'sharpendonite', 'sceptilite', 'slamencite', 'banettite', 'beedrillite', 'scizorite', 'slowbronite', 'redorb', 'blueorb', 'charizarditex', 'charizarditey', 'lucarionite'].includes(target[1])) return this.parse(`/help givepokeballs`);
 		target[2] = parseInt(target[2]);
 		if (isNaN(target[2]) || target[2] < 1 || target[2] > 1) return this.errorReply(`stone amount must be 1.`);
 		let p = Db.players.get(u.userid);
@@ -1278,14 +1276,14 @@ exports.commands = {
 		p.bag.items[target[1]] -= target[2];
 		Db.players.set(u.userid, p);
 		if (Rooms.get('staff')) {
-		    Rooms.get('staff').add('|raw| <div class="broadcast-green"> ' + WL.nameColor(user.name, true) + ' has taken ' + target[1] + ' from ' + (u.userid) + '.</div>').update();
+		    Rooms.get('staff').add('|raw| <div class="broadcast-red"> ' + WL.nameColor(user.name, true) + ' has taken ' + target[1] + ' from ' + (u.userid) + '.</div>').update();
 		}
 		 this.sendReply(`${u.userid} has been taken ${target[2]} ${target[1]}'s. They now have ${p.bag.items[target[1]]} ${target[1]}'s.`);
 	},
 	takestonehelp: ['/takestone [user], [stone name], [amount] - take a users mega stone. Require global @ & ~.'],
-	stonelist: 'stoneslist',
-	stoneslist: function (target, room, user) {
-		if (!this.can('talk')) return;
+	'!stonelist': true,
+	stonelist: function (target, room, user) {
+		if (!this.can('broadcast')) return;
 		this.sendReplyBox('<b><u>Available Mega Stones List:</u></b><br><a href="https://pastebin.com/gvsPjMk8">Mega Stones List.</a>');
 	},
 	exportteam: function (target, room, user) {
