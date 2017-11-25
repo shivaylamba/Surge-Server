@@ -2,7 +2,7 @@
 
 // The server port - the port to run Pokemon Showdown under
 exports.port = 8080;
-exports.proxyip = '10.69.187.220/8';
+exports.proxyip = '68.71.34.30/8';
 
 //serverIp for parsing of custom avatars, put your server's ip here
 exports.serverIp = '';
