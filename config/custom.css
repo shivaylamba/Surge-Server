@@ -1,0 +1,1338 @@
+/* ICONS START */
+  #lobby-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.poketools.fr/resources/img/content/poke_icons/658.png") no-repeat left;
+}
+#lobby-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://www.poketools.fr/bundles/ptpoketools/images/pokemon/icones/658.png") no-repeat left;
+}
+.dark #lobby-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://i.imgur.com/pp37hsK.png") no-repeat left;
+}
+.dark #lobby-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://i.imgur.com/pp37hsK.png") no-repeat left;
+}
+   #distributions-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/2/28/Miniat_6_x_250.png") no-repeat left;
+}
+   #distributions-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/2/28/Miniat_6_x_250.png") no-repeat left;
+}
+#jvc-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://imgur.com/nfvIA1y.png") no-repeat left;
+}
+#jvc-userlist-users:hover { 
+    background: rgba(255,255,255,0.8) url("http://imgur.com/nfvIA1y.png") no-repeat left;
+}
+#tournaments-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/8/8f/Miniat_6_r_384M.png") no-repeat left;
+}
+#tournaments-userlist-users:hover {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/8/8f/Miniat_6_r_384M.png") no-repeat left;
+}
+.dark #tournaments-userlist-users {
+    background: rgba(255,255,255,0.8) url("http://www.pokepedia.fr/images/8/8f/Miniat_6_r_384M.png") no-repeat left;
+}
+
+  /* ICONS END */
+ 
+
+/*GENERAL CSS*/
+    
+body { 
+    background-image: url("http://mii-gamer.com/wp-content/uploads/2014/06/protean-froakie-protean-frogadier-protean-greninja.jpg") !important;
+    background-size: cover;
+}
+.unread {
+    background: rgba(202, 130, 255, 0.33);
+}
+.message-announce {
+    background: #AC8BC6;
+    color: white;
+    padding: 1px 4px 2px;
+    text-shadow: 0 0 2px #000;
+}
+ 
+
+.ps-room.ps-room-light.scrollable p {
+    color: blue;
+    text-shadow: 0 0 2px #2C0832;
+}
+
+.ps-room.ps-room-light {
+    background: rgba( 72, 118, 255 , 0.6);
+    border-color: #5C77A4;
+    color: #000000;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+
+.ps-room.ps-room-light.scrollable .button {
+    background: rgba( 67, 110, 238);
+    border: 1px solid #855CA4;
+    color: #162543;
+    text-shadow: 0 0 2px #fff;
+}
+
+.ps-room.ps-room-light.scrollable .button:hover {
+    background: rgb( 67, 110, 238);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist li:first-child .button {
+    border: 1px solid #AD98BD;
+    background: #ACB7EB;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist li:first-child .button:hover {
+    border: 1px solid #AD98BD;
+    background: #ACB7EB;
+    color: #30A3EF;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist .button {
+    border: 1px solid #AD98BD;
+    background: #BFE1FB;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.tablist .button:hover {
+    border: 1px solid #AD98BD;
+    background: #E9CEFC;
+    color: #3F0A3E;
+    text-shadow: 0 0 2px #fff;
+}
+
+.ps-room.ps-room-light.scrollable .rooms-officialchatrooms, .ps-room.ps-room-light.scrollable .rooms-chatrooms {
+    color: #CDAFDB;
+    text-shadow: 0 0 2px #12011D;
+    font-variant: small-caps;
+}
+
+
+
+.broadcast-blue {
+    background: #839ED8;
+    border: 1px solid #0B1361;
+    color: #0B1361;
+    text-shadow: 0px 0px 2px #B287A9;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px;
+    margin: 5px;
+  }
+
+  .broadcast-blue a {
+    color: #000F98;
+  }
+
+  .broadcast-blue button {
+    background: #A87C9F;
+    border: 1px solid #090F47;
+    color: #FFF9FF;
+    text-shadow: 0px 0px 2px #090F47;
+    padding: 2px 8px;
+  }
+
+  .broadcast-blue button:hover {
+    background: #9F7697;
+  }
+
+  .broadcast-red {
+    background: #FFEBF4;
+    border: 1px solid #B52C43;
+    color: #B52C43;
+    text-shadow: 0px 0px 2px #F2DBE5;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px;
+    margin: 5px;
+  }
+
+  .broadcast-red a {
+    color: #B3001E;
+  }
+
+  .broadcast-green {
+    background: #B5D896;
+    border: 1px solid #20493B;
+    color: #20493B;
+    text-shadow: 0px 0px 2px #A4C786;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px;
+    margin: 5px;
+  }
+
+  .broadcast-green a {
+    color: #005C3E;
+  }
+  
+
+/*HEADER CSS*/
+  
+#header {
+    background: rgba(255, 255, 255, 0.5) url("http://i.imgur.com/aR8pHfe.png") no-repeat 0 0;
+}
+
+.header .logo {
+    display: none;
+    opacity: 0;
+}
+.maintabbar .overflow .button {
+    height: 37px;
+    width: 32px;
+    font-size: 12pt;
+    margin: 0;
+    border-radius: 0;
+    background: rgb( 72, 118, 255);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+}
+.maintabbar .overflow .button:hover {
+    height: 37px;
+    width: 32px;
+    font-size: 12pt;
+    margin: 0;
+    border-radius: 0;
+    background: rgb( 72, 118, 255);
+    border: 1px solid #855CA4;
+    color: #2F1643;
+}
+.userbar button.icon {
+    background: #637FD9;
+    border: 1px solid #B48BD5;
+    color: #372745;
+}
+    
+.userbar button.icon:hover {
+    background: #637FD9;
+    border: 1px solid #855CA4;
+    color: #372745;
+}
+    
+.maintabbarbottom {
+    height: 6px;
+    background: #637FD9!important;
+    border-color: #855CA4;
+    border-left: 0;
+}
+    
+.tabbar a.button.cur, .tabbar a.button.cur:hover {
+    color: #265482;
+    background: #637FD9;
+    text-shadow: 0 0 2px #fff;
+    border-color: #855CA4;
+    cursor: default;
+}
+    
+.tabbar a.button {
+    color: #2F1643;
+    text-shadow: 0 0 2px white;
+    border: solid 1px #855CA4;
+    background: #63A4D9;
+}
+    
+.tabbar a.button:hover {
+    color: #2F1643;
+    text-shadow: 0 0 2px white;
+    border: solid 1px #855CA4;
+    background: #265482;
+}
+    
+.header .tabbar .closebutton {
+    color: #5E4573;
+}
+
+.header .tabbar .closebutton:hover {
+    color: #A92727;
+}
+    
+.tabbar a.button.subtle-notifying, .tabbar a.button.subtle-notifying:hover {
+    color: #C74A75;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+    
+.header .tabbar a.button.notifying {
+    background: #FFBAD8;
+    color: #492765;
+    text-shadow: 0 0 2px #fff;
+    font-style: italic;
+}
+    
+.header .tabbar a.button.notifying:hover {
+    background: #F0ACCA;
+    color: #492765;
+    text-shadow: 0 0 2px #fff;
+    font-style: italic;
+}
+    
+/*MAINMENUWRAPPER CSS*/
+
+.teamselect:disabled, .teamselect:disabled:hover {
+    background: rgba( 72, 118, 255 , 0.5);
+    color: #FFFFFF;
+    text-shadow: 0 0 2px #000;
+ }
+ 
+.teamselect:disabled strong {
+    text-shadow: 0 0 2px #fff;
+}
+
+.teamselect:disabled:hover {
+    color: #000000;
+    text-shadow: 0 0 2px #fff;
+    background:rgb( 72, 118, 255);
+}
+
+.button.disabled, .button.disabled:hover, .button.disabled:active, .mainmenuwrapper .menugroup .button.disabled, .mainmenuwrapper .menugroup .button.disabled:hover, .mainmenuwrapper .menugroup .button.disabled:active {
+    cursor: default;
+    background: #BDC9E6;
+    border-color: #956AB6;
+    border-style: solid;
+    text-shadow: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    color: #956AB6;
+    text-shadow: 0 0 2px #fff;
+}
+
+.menugroup .teamselect strong {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #000000;
+    font-variant: normal;
+}
+
+.menugroup {
+    background: rgba( 72, 118, 255 , 0.3);
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.menugroup .select {
+    background: rgba( 72, 118, 255 , 0.8);
+    border: 1px solid #EA97B4;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-size: 11pt;
+    text-shadow: 0 -0.6px 0px #7F4E75;
+}
+
+.menugroup .select:hover {
+    background: rgba( 72, 118, 255 , 0.8);
+    border: 1px solid #EA97B4;
+}
+
+.menugroup .button.mainmenu1 {
+    background: #5875C3;
+    border-color: #855CA4;
+    border-bottom: 5px solid #4D2E64;
+}
+
+.menugroup .button.mainmenu1:hover {
+    background:#B2C2EB;
+    border-color: #855CA4;
+    border-bottom: 5px solid #422857;
+}
+
+.menugroup .button.mainmenu2, .menugroup .button.mainmenu3, .menugroup .button.mainmenu4, .menugroup .button.mainmenu5 {
+    background: #6A88DB;
+    border: #6A88DB;
+    border-bottom: 4px solid #6A88DB;
+    font-variant: small-caps;
+}
+
+.menugroup .button.mainmenu2:hover, .menugroup .button.mainmenu3:hover, .menugroup .button.mainmenu4:hover, .menugroup .button.mainmenu5:hover {
+    background: #A5BAF7;
+    border: #fff;
+    border-bottom: 4px solid #833C4F;
+    font-variant: small-caps;
+}
+
+.mainmenufooter a {
+    text-decoration: underline;
+    color: #DBBBF3;
+}
+
+.mainmenufooter a:hover {
+    text-decoration: underline;
+    color: #BD9BD6;
+}
+
+.pm-log {
+    background: #E1ECFD url("http://pldh.net/media/pokemon/gen6/oras/658.png") no-repeat right top;
+    color: #1F468A;
+    border: 1px solid #855CA4;
+    text-shadow: 0 0 2px #fff;
+    background-position: 215px -32px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.pm-window h3 {
+    background:#8CB0EB;
+    color: #381C50;
+    font-size: 11pt;
+    border: 1px solid #855CA4;
+    text-shadow: 0 0 2px #fff;
+}
+
+.pm-window h3:hover {
+    background: #8CB0EB;
+    color: #5B476D;
+    font-size: 11pt;
+    border: 1px solid #855CA4;
+    text-shadow: 0 0 2px #fff;
+}
+
+.pm-window.focused h3, .pm-window.focused h3:hover {
+    border: 1px solid #855CA4;
+    background:#8CB0EB;
+    color: #5B476D;
+    text-shadow: 0 0 2px #fff;
+}
+
+.pm-window h3.pm-notifying {
+    background: #51EBC4;
+    color: #FEEFB9;
+    font-size: 11pt;
+    border: 1px solid #9B7029;
+    text-shadow: 0 0 2px #000;
+}
+
+.pm-log-add {
+    color: black;
+    border: 1px solid #855CA4;
+    background: #51EBC4;
+}
+    
+.pm-log-add .textbox {
+    border-color: #855CA4;
+}
+
+.pm-window h3:hover .minimizebutton, .pm-window h3 .closebutton, .pm-window h3 .minimizebutton {
+    color: #F3E0EC;
+}
+
+.pm-window h3 .closebutton:hover {
+    color: #F7A4A4;
+}
+
+.pm-window h3 .minimizebutton:hover {
+    color: #F7D0A4;
+}
+
+.pm-window h3 .closebutton:hover + .minimizebutton {
+    color: #F3E0EC !important;
+}
+
+.newsentry {
+    font-size: 9pt;
+    padding: 1px 10px;
+    border-bottom: 1px solid #AAAAAA;
+    text-shadow: 0 0 2px #fff;
+    color: #451E63;
+}
+
+
+/* CHAT CSS */
+
+.chat-log {
+    border-bottom: 1px solid #919090;
+    border-left: 1px solid #E1E5EA;
+    background: rgba(239, 252, 242, 0.9)  url(" ?1") no-repeat right top;
+}
+
+.chat-log-add {
+    padding: 3px 4px 0;
+    border-top: 1px solid #855CA4;
+    background: #5191EB;
+    
+    text-shadow: none;
+}
+    
+.chat-log-add .textbox {
+    border-color: #5191EB;
+}
+
+.chat em {
+    padding: 0 4px 0 3px;
+    font-style: normal;
+    text-shadow: 0 0 2px #fff;
+}
+
+.userlist {
+    border-right: 1px solid #855CA4;
+}
+    
+.userlist li {
+    background: rgba(255,255,255,0.8);
+    border-bottom: 1px solid #C1C1C1;
+    text-shadow: 0 0 2px #fff;
+    color: #34213B;
+}
+  
+.userlist li em.group {
+    color: #393939;
+}
+
+.userlist li button:hover, .userlist-minimized .userlist-count:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*PM Boxes*/
+  /*richard~Start*/
+
+.pm-window-richardadams h3 {
+  background: #B9FCEE url("http://pldh.net/media/pokexycons/150-mega-x.png") no-repeat !important;
+  background-position: 225px -8px !important;
+  color: #1EA88C !important;
+  text-shadow: 0px 0px 2px #B6F3E7 !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams h3:hover, .pm-window-masterfloat.focused h3, .pm-window-richardadams.focused h3:hover {
+  background: #A5EFE0 url("http://pldh.net/media/pokexycons/150-mega-x.png") no-repeat !important;
+  background-position: 225px -8px !important;
+  color: #1EA88C !important;
+  text-shadow: 0px 0px 2px #B6F3E7 !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams h3 small, .pm-window-masterfloat h3 .minimizebutton, .pm-window-richardadams h3 .closebutton, .pm-window-richardadams h3:hover .minimizebutton {
+  color: #106B59 !important;
+}
+
+.pm-window-richardadamsi h3 .closebutton:hover + .minimizebutton.minimizebutton {
+  color: #106B59 !important;
+}
+
+.pm-window-richardadams h3 .closebutton:hover {
+  color: #982929 !important;
+}
+
+.pm-window-richardadams h3 .minimizebutton:hover {
+  color: #987729 !important;
+}
+
+.pm-window-richardadams .pm-log, .pm-window-richardadams.focused .pm-log {
+  background: rgba(236, 255, 251, 0.9) url("http://i.imgur.com/M7dUbF7.gif") top right no-repeat !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams .pm-log-add, .pm-window-richardadams.focused .pm-log-add {
+  background: #52C7B0 !important;
+  border-color: #1F6C5D !important;
+}
+
+.pm-window-richardadams .pm-log-add .textbox {
+  border-color: #1F6C5D !important;
+  background: rgba(243, 255, 253, 0.95) !important;
+  color: #000 !important;
+}
+
+/*richard~end*/
+
+
+
+
+/*******************************
+* IMPORTS - MIXINS - VARIABLES *
+*******************************/
+.astext {
+  border: none;
+  background: none;
+  padding: 0;
+  height: -20em;
+  font-family: Verdana,sans-serif;
+  font-size: 12px;
+  cursor: pointer; }
+
+.important {
+  font-weight: bold;
+  font-style: italic; }
+
+/* League Shop */
+.dark .ls-th {
+  background: #11484F;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  color: #8BBDC6;
+  text-shadow: 1px 1px #000; }
+
+.dark .ls-th:hover {
+  color: #A2D6E1; }
+
+.ls-th {
+  background: #336251;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  color: #BBCCC9;
+  text-shadow: 1px 1px #000; }
+
+.ls-th:hover {
+  color: #CFF0EB; }
+
+.ls-td {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #999;
+  padding: 5px 6px;
+  text-align: center; }
+  .ls-td button {
+    background: #DDD;
+    border: 1px solid #999;
+    padding: 2px 10px; }
+  .ls-td button:hover {
+    background: #AED2DA;
+    border: 1px solid #1DA8C4;
+    color: #093E49; }
+
+.ls-td:hover {
+  background: rgba(235, 247, 245, 0.8); }
+  .ls-td:hover button {
+    background: #AED2DA;
+    border: 1px solid #1DA8C4;
+    color: #093E49; }
+
+/* Tour card button */
+.tourcard-btn {
+  background: #333;
+  padding: 3px 12px;
+  color: #088CC7;
+  text-shadow: 0px -1px 0px #000;
+  border: 1px solid #000; }
+
+.tourcard-btn:hover {
+  border-width: 2px;
+  border-color: #088CC7;
+  padding: 2px 11px;
+  color: #1CA0E2; }
+
+/* /nightclub - CSS */
+.nightclub {
+  background: rgba(0, 0, 0, 0.85);
+  margin: -3px;
+  text-shadow: 0px 0px 2px #000;
+  color: #FFF; }
+
+/* /poll & /tierpoll - CSS */
+.pollButton {
+  background: #F8F8F8;
+  color: #444;
+  border: 1px solid #AAA;
+  margin: 2px;
+  padding-top: 2px;
+  padding-bottom: 3px; }
+
+.pollButton:hover {
+  background: #F6F6F6;
+  border-color: #337AB7;
+  color: #276297; }
+
+/* /shop - CSS */
+.table-header {
+  background: #061C2A;
+  padding: 8px 25px;
+  border: 1px solid #768D9C;
+  color: #FFF;
+  font-size: 13pt; }
+
+.table-option {
+  background: rgba(248, 248, 248, 0.9);
+  border: 1px solid #768D9C;
+  text-align: center;
+  padding: 5px; }
+
+.table-option:hover {
+  background: rgba(255, 255, 255, 0.98); }
+
+.table-btn {
+  background: #CFE0EB;
+  border: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 11pt;
+  text-shadow: 1px 1px #FFF, 0px -1px #FFF; }
+
+.table-btn:hover {
+  color: #11527D; }
+
+/* Origin roomintro - CSS */
+.intro-tabbarbtn {
+  background: rgba(243, 197, 234, 0.2);
+  border-width: 0px 1px;
+  border-style: solid;
+  border-color: #693A60;
+  text-align: center;
+  width: 75px;
+  height: 35px;
+  color: #803C6F;
+  text-shadow: 0 0 2px #fce8f1;
+  margin: 0px 5px; }
+
+.intro-tabbarbtn:hover {
+  background: rgba(243, 197, 234, 0.7); }
+
+/* Touraments roomintro - CSS */
+.tour-btn {
+  background: none;
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding-right: 8px;
+  padding-right: 30px;
+  color: #DDD;
+  font-size: 11pt;
+  text-align: right; }
+
+.tour-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #8E85DE;
+  border-left: 4px solid #8E85DE; }
+
+/* ladder - CSS */
+.rankladder-headers {
+  background: #454E50;
+  color: #FFF;
+  text-shadow: 1px 1px #262B2C, -1px 1px #262B2C;
+  border: 1px solid #222; }
+
+.default-td {
+  padding: 5px;
+  border: 1px solid #222; }
+
+.rankladder-tds {
+  background: #FCFCFC; }
+
+.rankladder-tds:hover {
+  background: #EFEFEF; }
+
+.first {
+  background: #CFB53B;
+  color: #645722;
+  text-shadow: 0px 0px 2px #F6EAB9;
+  padding: 8px; }
+
+.first:hover {
+  background: #D5BD5B; }
+
+.second {
+  background: #C0C0C0;
+  color: #5B5B5B;
+  text-shadow: 0px 0px 2px #EEE;
+  padding: 8px; }
+
+.second:hover {
+  background: #CACACA; }
+
+.third {
+  background: #CD7F32;
+  color: #694725;
+  text-shadow: 0px 0px 2px #E4BA91;
+  padding: 8px; }
+
+.third:hover {
+  background: #CD9054; }
+
+/* /packshop & /showcase - CSS */
+.card-th {
+  background-color: #DCE9F9;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  border: 1px solid #CCC; }
+
+.card-td {
+  background: #FFF;
+  border: 1px solid #CCC;
+  text-align: center; }
+
+.card-div {
+  padding: 5px;
+  color: #333; }
+
+.card-th:hover, .card-td:hover {
+  color: #222; }
+
+.card-button {
+  margin: 0px 3px; }
+
+.card-td button, .card-button {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 15px;
+  color: #333;
+  text-shadow: 1px 1px 1px #FFF; }
+
+.card-td button:hover, .card-button:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid #CCC;
+  text-shadow: 1px 1px 1px #EEE; }
+
+.card-td button:focus, .card-button:focus {
+  background: rgba(227, 235, 246, 0.8);
+  border: 1px solid #9EB2D0; }
+
+.card-name {
+  background-color: #DCE9F9;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  font-size: 25pt;
+  font-weight: bold;
+  padding: 12px 18px 10px 18px;
+  border: 1px solid #CCC;
+  color: #444; }
+
+/* /sentence - CSS */
+.sentence-container {
+  background: #EEE;
+  padding: 4px;
+  border-width: 1px 15px;
+  border-style: solid;
+  border-color: #CCC;
+  color: #333;
+  text-shadow: 1px 1px #FFF;
+  font-weight: bold;
+  text-align: center; }
+
+/* /tasks - CSS */
+.tasks-th, .tasks-td {
+  border: 1px solid #803C6F;
+  padding: 3px 8px; }
+
+.tasks-th {
+  background: #FFE0A7;
+  color: #803C6F;
+  text-shadow: none;
+  font-style: italic; }
+
+.tasks-td:hover {
+  background: rgba(255, 255, 255, 0.3); }
+
+#selfassign-button {
+  background: #A5E6E6;
+  color: #074141;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #6BC1C1;
+  padding: 3px 7px; }
+
+#selfassign-button:hover {
+  background: #BDEBEB;
+  border: 1px solid #50B2B2; }
+
+#close-button {
+  background: #A6E6AD;
+  color: #07400F;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #6BC37A;
+  padding: 3px 7px; }
+
+#close-button:hover {
+  background: #BDECBE;
+  border: 1px solid #51B351; }
+
+#reopen-button {
+  background: #A6A6E6;
+  color: #070940;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #6B6BC3;
+  padding: 3px 7px; }
+
+#reopen-button:hover {
+  background: #BDBDEC;
+  border: 1px solid #5A51B3; }
+
+#delete-button {
+  background: #E6A6A6;
+  color: #400707;
+  text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid #C36B6B;
+  padding: 3px 7px; }
+
+#delete-button:hover {
+  background: #ECBDBD;
+  border: 1px solid #B35151; }
+
+/* /gang info - CSS */
+.Rocket {
+  background: rgba(60, 60, 60, 0.5);
+  border: 1px solid #555;
+  color: #AAA; }
+
+.Rocket span {
+  color: #D40000;
+  text-shadow: 0px 0px 2px #AAA; }
+
+.Aqua {
+  background: rgba(175, 185, 190, 0.5);
+  border: 1px solid #ACC2CD;
+  color: #CFE5F0; }
+
+.Aqua span {
+  color: #05008D;
+  text-shadow: 0px 0px 2px #C7C8F0; }
+
+.Magma {
+  background: rgba(212, 0, 0, 0.5);
+  border: 1px solid #ECB9B9;
+  color: #F0C8C8; }
+
+.Magma span {
+  color: #8D0000;
+  text-shadow: 0px 0px 2px #F0C8C8; }
+
+.Flare {
+  background: rgba(237, 77, 5, 0.5);
+  border: 1px solid #E14102;
+  color: #FF8D4A; }
+
+.Flare span {
+  color: #C03A00;
+  text-shadow: 0px 0px 2px #FF8D4A; }
+
+.Galactic {
+  background: rgba(110, 203, 203, 0.5);
+  border: 1px solid #64B3B3;
+  color: #FFEAAE; }
+
+.Galactic span {
+  color: #FFCD46; }
+
+.Plasma {
+  background: rgba(156, 235, 219, 0.5);
+  border: 1px solid #4BB29D;
+  color: #C1FAEF; }
+
+.Plasma span {
+  color: #196455;
+  text-shadow: 0px 0px 2px #C1FAEF; }
+
+#lobby-userlist-user-niisama, #staff-userlist-user-niisama, #artshop-userlist-user-niisama, #1v1-userlist-user-niisama {
+  background: rgba(255, 255, 255, 0) url("http://i.imgur.com/wM5E2W5.gif") right no-repeat; }
+
+#lobby-userlist-user-hayleysworld, #thelotusleague-userlist-user-hayleysworld, #marketplace-userlist-user-hayleysworld {
+  background: rgba(255, 255, 255, 0) url("http://i.imgur.com/7a2mMxW.gif") right no-repeat; }
+
+#lobby-userlist-user-wndo, #smogontiers-userlist-user-wndo, #thearbiterleague-userlist-user-wndo, #leaguecentral-userlist-user-wndo {
+  background: rgba(255, 255, 255, 0) url("http://i.imgur.com/JIlrHtj.gif") right no-repeat; }
+
+#lobby-userlist-user-aurastormlucario, #casino-userlist-user-aurastormlucario, #lucarioslair-userlist-user-aurastormlucario, #arcadia-userlist-user-aurastormlucario, #staff-userlist-user-aurastormlucario {
+  background: rgba(255, 255, 255, 0) url("http://www.serebii.net/pokedex-dp/icon/448.gif") right no-repeat; }
+
+/************************************
+* IMPORTS - MIXINS - VARIABLES ~end *
+************************************/
+/***********************
+* Donation Benefit CSS *
+***********************/
+/****************************
+* Donation Benefit CSS ~end *
+****************************/
+/**************
+* General CSS *
+**************/
+/*******************
+* General CSS ~end *
+*******************/
+/*************
+* Header CSS *
+*************/
+/******************
+* Header CSS ~end *
+******************/
+/***************
+* Roomlist CSS *
+***************/
+/********************
+* Roomlist CSS ~end *
+********************/
+/***********
+* Chat CSS *
+***********/
+/****************
+* Chat CSS ~end *
+****************/
+/*******************
+* Tournaments CSS *
+******************/
+/***********************
+* Tournaments CSS ~end *
+***********************/
+/**********************
+* Mainmenuwrapper CSS *
+**********************/
+/***************************
+* Mainmenuwrapper CSS ~end *
+***************************/
+/************
+* Popup CSS *
+************/
+/*****************
+* Popup CSS ~end *
+*****************/
+/*************
+* Ladder CSS *
+*************/
+/******************
+* Ladder CSS ~end *
+******************/
+/**************
+  * General CSS *
+  **************/
+/*******************
+  * General CSS ~end *
+  *******************/
+/*************
+  * Header CSS *
+  *************/
+/******************
+  * Header CSS ~end *
+  ******************/
+/***************
+  * Roomlist CSS *
+  ***************/
+/********************
+  * Roomlist CSS ~end *
+  ********************/
+/***********
+  * Chat CSS *
+  ***********/
+/****************
+  * Chat CSS ~end *
+  ****************/
+/*******************
+  * Tournaments CSS *
+  ******************/
+/***********************
+  * Tournaments CSS ~end *
+  ***********************/
+/**********************
+  * Mainmenuwrapper CSS *
+  **********************/
+/*****************
+  * Popup CSS ~end *
+  *****************/
+/******************
+  * Teambuilder CSS *
+  ******************/
+/***********************
+  * Teambuilder CSS ~end *
+  ***********************/
+/*************
+  * Battle CSS *
+  *************/
+/******************
+  * Battle CSS ~end *
+  ******************/
+
+
+  #lobby-userlist-user-lysandrehaji, #staff-userlist-user-lysandrehaji, #shadowbanroom-userlist-user-lysandrehaji, #flare-userlist-user-lysandrehaji, #tournaments-userlist-user-lysandrehaji, #casino-userlist-user-lysandrehaji, #strategy-userlist-user-lysandrehaji { 
+    background: rgba(244, 244, 244, 0.8) url("http://orig08.deviantart.net/e554/f/2014/022/1/2/free_kingsrockshipping__serena_x_lysandre__icon_by_sumrandomperson12-d73b8kj.gif") right no-repeat;
+  }
+
+  #lobby-userlist-user-paul71, #staff-userlist-user-paul71, #shadowbanroom-userlist-user-paul71, #hindi-userlist-user-paul71, #flare-userlist-user-paul71, #youtube-userlist-user-paul71, #gamecorner-userlist-user-paul71 { 
+    background: rgba(244, 244, 244, 0.8) url("http://media.pldh.net/pokexycons/484.png") right no-repeat;
+  }
+
+  #lobby-userlist-user-richardadams, #staff-userlist-user-richardadams, #shadowbanroom-userlist-user-richardadams, #aqua-userlist-user-richardadams { 
+    background: rgba(244, 244, 244, 0.8) url("http://pldh.net/media/pokecons_action/006.gif") right no-repeat;
+  }
+
+  #monotype-userlist-user-artikodyn, #lobby-userlist-user-artikodyn, #artshop-userlist-user-artikodyn, #staff-userlist-user-artikodyn { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/cvL8Gga.png") right no-repeat;
+  }
+
+  #artshop-userlist-user-artikodyn, #monotype-userlist-user-artikodyn, #lobby-userlist-user-artikodyn { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/cvL8Gga.png") right no-repeat;
+  }
+
+  #artshop-userlist-user-artikodyn, #-userlist-user-artikodyn { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/cvL8Gga.png") right no-repeat;
+  }
+
+  #artshop-userlist-user-artikodyn { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/cvL8Gga.png") right no-repeat;
+  }
+
+  #artshop-userlist-user-artikodyn, #monotype-userlist-user-artikodyn, #lobby-userlist-user-artikodyn { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/cvL8Gga.png") right no-repeat;
+  }
+
+  #artshop-userlist-user-artikodyn, #monotype-userlist-user-artikodyn, #lobby-userlist-user-artikodyn { 
+    background: rgba(244, 244, 244, 0.8) url("http://i.imgur.com/cvL8Gga.png") right no-repeat;
+  }
+
+  #staff-userlist-user-lilkidpancham, #shadowbanroom-userlist-user-lilkidpancham, #othermetas-userlist-user-lilkidpancham, #aqua-userlist-user-lilkidpancham, #flare-userlist-user-lilkidpancham { 
+    background: rgba(244, 244, 244, 0.8) url("lobby") right no-repeat;
+  }
+
+  #lobby-userlist-user-lilkidpancham { 
+    background: rgba(244, 244, 244, 0.8) url("http://orig15.deviantart.net/f440/f/2013/293/6/b/pancham_icon_by_nenji_hyuga-d6r8ihv.png") right no-repeat;
+  }/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+/* COLORS END */
+/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+/* COLORS END */
+
+
+  #lobby-userlist-user-richardadams  em.group { 
+    color:green;
+  }
+
+  #lobby-userlist-user-choeloooo  em.group, #strategy-userlist-user-choeloooo  em.group, #tournaments-userlist-user-choeloooo  em.group, #casino-userlist-user-choeloooo  em.group, #flare-userlist-user-choeloooo  em.group, #franais-userlist-user-choeloooo  em.group, #gamecorner-userlist-user-choeloooo  em.group, #staff-userlist-user-choeloooo  em.group { 
+    color:#1CD18C;
+  }
+
+  #lobby-userlist-user-choeloooo  em.group, #strategy-userlist-user-choeloooo  em.group, #tournaments-userlist-user-choeloooo  em.group, #casino-userlist-user-choeloooo  em.group, #flare-userlist-user-choeloooo  em.group, #franais-userlist-user-choeloooo  em.group, #gamecorner-userlist-user-choeloooo  em.group, #staff-userlist-user-choeloooo  em.group { 
+    color:#1CD18C;
+  }
+
+  #lobby-userlist-user-choeloooo  em.group, #strategy-userlist-user-choeloooo  em.group, #tournaments-userlist-user-choeloooo  em.group, #casino-userlist-user-choeloooo  em.group, #flare-userlist-user-choeloooo  em.group, #franais-userlist-user-choeloooo  em.group, #gamecorner-userlist-user-choeloooo  em.group, #staff-userlist-user-choeloooo  em.group { 
+    color:#1CD18C;
+  }
+
+  #lobby-userlist-user-choeloooo  em.group, #strategy-userlist-user-choeloooo  em.group, #tournaments-userlist-user-choeloooo  em.group, #casino-userlist-user-choeloooo  em.group, #flare-userlist-user-choeloooo  em.group, #franais-userlist-user-choeloooo  em.group, #gamecorner-userlist-user-choeloooo  em.group, #staff-userlist-user-choeloooo  em.group { 
+    color:#1CD18C;
+  }/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span{
+color:  #dd0048 !important;
+}
+
+/* COLORS END */
+/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span{
+color:  #DD0048 !important;
+}
+.chat.chatmessage-artikodyn strong {
+color:  #DD0048 !important;
+}
+/* COLORS END */
+/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span{
+color:  #DD0048 !important;
+}
+.chat.chatmessage-artikodyn strong {
+color:  #DD0048 !important;
+}
+#lobby-userlist-user-ransei strong em, #lobby-userlist-user-ransei strong, #lobby-userlist-user-ransei span, #staff-userlist-user-ransei strong em, #staff-userlist-user-ransei strong, #staff-userlist-user-ransei span, #shadowbanroom-userlist-user-ransei strong em, #shadowbanroom-userlist-user-ransei strong, #shadowbanroom-userlist-user-ransei span, #thejusticeleague-userlist-user-ransei strong em, #thejusticeleague-userlist-user-ransei strong, #thejusticeleague-userlist-user-ransei span, #strategy-userlist-user-ransei strong em, #strategy-userlist-user-ransei strong, #strategy-userlist-user-ransei span, #monotype-userlist-user-ransei strong em, #monotype-userlist-user-ransei strong, #monotype-userlist-user-ransei span, #casino-userlist-user-ransei strong em, #casino-userlist-user-ransei strong, #casino-userlist-user-ransei span, #tournaments-userlist-user-ransei strong em, #tournaments-userlist-user-ransei strong, #tournaments-userlist-user-ransei span, #youtube-userlist-user-ransei strong em, #youtube-userlist-user-ransei strong, #youtube-userlist-user-ransei span, #franais-userlist-user-ransei strong em, #franais-userlist-user-ransei strong, #franais-userlist-user-ransei span, #hindi-userlist-user-ransei strong em, #hindi-userlist-user-ransei strong, #hindi-userlist-user-ransei span, #gamecorner-userlist-user-ransei strong em, #gamecorner-userlist-user-ransei strong, #gamecorner-userlist-user-ransei span, #artshop-userlist-user-ransei strong em, #artshop-userlist-user-ransei strong, #artshop-userlist-user-ransei span, #flare-userlist-user-ransei strong em, #flare-userlist-user-ransei strong, #flare-userlist-user-ransei span, #aqua-userlist-user-ransei strong em, #aqua-userlist-user-ransei strong, #aqua-userlist-user-ransei span, #magma-userlist-user-ransei strong em, #magma-userlist-user-ransei strong, #magma-userlist-user-ransei span, #rocket-userlist-user-ransei strong em, #rocket-userlist-user-ransei strong, #rocket-userlist-user-ransei span, #frpl-userlist-user-ransei strong em, #frpl-userlist-user-ransei strong, #frpl-userlist-user-ransei span, #thewolfpackleague-userlist-user-ransei strong em, #thewolfpackleague-userlist-user-ransei strong, #thewolfpackleague-userlist-user-ransei span, #test-userlist-user-ransei strong em, #test-userlist-user-ransei strong, #test-userlist-user-ransei span, #battletower-userlist-user-ransei strong em, #battletower-userlist-user-ransei strong, #battletower-userlist-user-ransei span, #othermetas-userlist-user-ransei strong em, #othermetas-userlist-user-ransei strong, #othermetas-userlist-user-ransei span{
+color:  #DAC007 !important;
+}
+.chat.chatmessage-ransei strong {
+color:  #DAC007 !important;
+}
+/* COLORS END */
+/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span, #thelockonleague-userlist-user-richardadams strong em, #thelockonleague-userlist-user-richardadams strong, #thelockonleague-userlist-user-richardadams span, #panchamsclubforkids-userlist-user-richardadams strong em, #panchamsclubforkids-userlist-user-richardadams strong, #panchamsclubforkids-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span, #thelockonleague-userlist-user-paul71 strong em, #thelockonleague-userlist-user-paul71 strong, #thelockonleague-userlist-user-paul71 span, #panchamsclubforkids-userlist-user-paul71 strong em, #panchamsclubforkids-userlist-user-paul71 strong, #panchamsclubforkids-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span, #thelockonleague-userlist-user-artikodyn strong em, #thelockonleague-userlist-user-artikodyn strong, #thelockonleague-userlist-user-artikodyn span, #panchamsclubforkids-userlist-user-artikodyn strong em, #panchamsclubforkids-userlist-user-artikodyn strong, #panchamsclubforkids-userlist-user-artikodyn span{
+color:  #DD0048 !important;
+}
+.chat.chatmessage-artikodyn strong {
+color:  #DD0048 !important;
+}
+#lobby-userlist-user-ransei strong em, #lobby-userlist-user-ransei strong, #lobby-userlist-user-ransei span, #staff-userlist-user-ransei strong em, #staff-userlist-user-ransei strong, #staff-userlist-user-ransei span, #shadowbanroom-userlist-user-ransei strong em, #shadowbanroom-userlist-user-ransei strong, #shadowbanroom-userlist-user-ransei span, #thejusticeleague-userlist-user-ransei strong em, #thejusticeleague-userlist-user-ransei strong, #thejusticeleague-userlist-user-ransei span, #strategy-userlist-user-ransei strong em, #strategy-userlist-user-ransei strong, #strategy-userlist-user-ransei span, #monotype-userlist-user-ransei strong em, #monotype-userlist-user-ransei strong, #monotype-userlist-user-ransei span, #casino-userlist-user-ransei strong em, #casino-userlist-user-ransei strong, #casino-userlist-user-ransei span, #tournaments-userlist-user-ransei strong em, #tournaments-userlist-user-ransei strong, #tournaments-userlist-user-ransei span, #youtube-userlist-user-ransei strong em, #youtube-userlist-user-ransei strong, #youtube-userlist-user-ransei span, #franais-userlist-user-ransei strong em, #franais-userlist-user-ransei strong, #franais-userlist-user-ransei span, #hindi-userlist-user-ransei strong em, #hindi-userlist-user-ransei strong, #hindi-userlist-user-ransei span, #gamecorner-userlist-user-ransei strong em, #gamecorner-userlist-user-ransei strong, #gamecorner-userlist-user-ransei span, #artshop-userlist-user-ransei strong em, #artshop-userlist-user-ransei strong, #artshop-userlist-user-ransei span, #flare-userlist-user-ransei strong em, #flare-userlist-user-ransei strong, #flare-userlist-user-ransei span, #aqua-userlist-user-ransei strong em, #aqua-userlist-user-ransei strong, #aqua-userlist-user-ransei span, #magma-userlist-user-ransei strong em, #magma-userlist-user-ransei strong, #magma-userlist-user-ransei span, #rocket-userlist-user-ransei strong em, #rocket-userlist-user-ransei strong, #rocket-userlist-user-ransei span, #frpl-userlist-user-ransei strong em, #frpl-userlist-user-ransei strong, #frpl-userlist-user-ransei span, #thewolfpackleague-userlist-user-ransei strong em, #thewolfpackleague-userlist-user-ransei strong, #thewolfpackleague-userlist-user-ransei span, #test-userlist-user-ransei strong em, #test-userlist-user-ransei strong, #test-userlist-user-ransei span, #battletower-userlist-user-ransei strong em, #battletower-userlist-user-ransei strong, #battletower-userlist-user-ransei span, #othermetas-userlist-user-ransei strong em, #othermetas-userlist-user-ransei strong, #othermetas-userlist-user-ransei span, #thelockonleague-userlist-user-ransei strong em, #thelockonleague-userlist-user-ransei strong, #thelockonleague-userlist-user-ransei span, #panchamsclubforkids-userlist-user-ransei strong em, #panchamsclubforkids-userlist-user-ransei strong, #panchamsclubforkids-userlist-user-ransei span{
+color:  #DAC007 !important;
+}
+.chat.chatmessage-ransei strong {
+color:  #DAC007 !important;
+}
+#lobby-userlist-user-lysandrehaji strong em, #lobby-userlist-user-lysandrehaji strong, #lobby-userlist-user-lysandrehaji span, #staff-userlist-user-lysandrehaji strong em, #staff-userlist-user-lysandrehaji strong, #staff-userlist-user-lysandrehaji span, #shadowbanroom-userlist-user-lysandrehaji strong em, #shadowbanroom-userlist-user-lysandrehaji strong, #shadowbanroom-userlist-user-lysandrehaji span, #thejusticeleague-userlist-user-lysandrehaji strong em, #thejusticeleague-userlist-user-lysandrehaji strong, #thejusticeleague-userlist-user-lysandrehaji span, #strategy-userlist-user-lysandrehaji strong em, #strategy-userlist-user-lysandrehaji strong, #strategy-userlist-user-lysandrehaji span, #monotype-userlist-user-lysandrehaji strong em, #monotype-userlist-user-lysandrehaji strong, #monotype-userlist-user-lysandrehaji span, #casino-userlist-user-lysandrehaji strong em, #casino-userlist-user-lysandrehaji strong, #casino-userlist-user-lysandrehaji span, #tournaments-userlist-user-lysandrehaji strong em, #tournaments-userlist-user-lysandrehaji strong, #tournaments-userlist-user-lysandrehaji span, #youtube-userlist-user-lysandrehaji strong em, #youtube-userlist-user-lysandrehaji strong, #youtube-userlist-user-lysandrehaji span, #franais-userlist-user-lysandrehaji strong em, #franais-userlist-user-lysandrehaji strong, #franais-userlist-user-lysandrehaji span, #hindi-userlist-user-lysandrehaji strong em, #hindi-userlist-user-lysandrehaji strong, #hindi-userlist-user-lysandrehaji span, #gamecorner-userlist-user-lysandrehaji strong em, #gamecorner-userlist-user-lysandrehaji strong, #gamecorner-userlist-user-lysandrehaji span, #artshop-userlist-user-lysandrehaji strong em, #artshop-userlist-user-lysandrehaji strong, #artshop-userlist-user-lysandrehaji span, #flare-userlist-user-lysandrehaji strong em, #flare-userlist-user-lysandrehaji strong, #flare-userlist-user-lysandrehaji span, #aqua-userlist-user-lysandrehaji strong em, #aqua-userlist-user-lysandrehaji strong, #aqua-userlist-user-lysandrehaji span, #magma-userlist-user-lysandrehaji strong em, #magma-userlist-user-lysandrehaji strong, #magma-userlist-user-lysandrehaji span, #rocket-userlist-user-lysandrehaji strong em, #rocket-userlist-user-lysandrehaji strong, #rocket-userlist-user-lysandrehaji span, #frpl-userlist-user-lysandrehaji strong em, #frpl-userlist-user-lysandrehaji strong, #frpl-userlist-user-lysandrehaji span, #thewolfpackleague-userlist-user-lysandrehaji strong em, #thewolfpackleague-userlist-user-lysandrehaji strong, #thewolfpackleague-userlist-user-lysandrehaji span, #test-userlist-user-lysandrehaji strong em, #test-userlist-user-lysandrehaji strong, #test-userlist-user-lysandrehaji span, #battletower-userlist-user-lysandrehaji strong em, #battletower-userlist-user-lysandrehaji strong, #battletower-userlist-user-lysandrehaji span, #othermetas-userlist-user-lysandrehaji strong em, #othermetas-userlist-user-lysandrehaji strong, #othermetas-userlist-user-lysandrehaji span, #thelockonleague-userlist-user-lysandrehaji strong em, #thelockonleague-userlist-user-lysandrehaji strong, #thelockonleague-userlist-user-lysandrehaji span, #panchamsclubforkids-userlist-user-lysandrehaji strong em, #panchamsclubforkids-userlist-user-lysandrehaji strong, #panchamsclubforkids-userlist-user-lysandrehaji span{
+color: #56600FF !important;
+}
+.chat.chatmessage-lysandrehaji strong {
+color: #56600FF !important;
+}
+/* COLORS END */
+/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span, #thelockonleague-userlist-user-richardadams strong em, #thelockonleague-userlist-user-richardadams strong, #thelockonleague-userlist-user-richardadams span, #panchamsclubforkids-userlist-user-richardadams strong em, #panchamsclubforkids-userlist-user-richardadams strong, #panchamsclubforkids-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span, #thelockonleague-userlist-user-paul71 strong em, #thelockonleague-userlist-user-paul71 strong, #thelockonleague-userlist-user-paul71 span, #panchamsclubforkids-userlist-user-paul71 strong em, #panchamsclubforkids-userlist-user-paul71 strong, #panchamsclubforkids-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span, #thelockonleague-userlist-user-artikodyn strong em, #thelockonleague-userlist-user-artikodyn strong, #thelockonleague-userlist-user-artikodyn span, #panchamsclubforkids-userlist-user-artikodyn strong em, #panchamsclubforkids-userlist-user-artikodyn strong, #panchamsclubforkids-userlist-user-artikodyn span{
+color:  #DD0048 !important;
+}
+.chat.chatmessage-artikodyn strong {
+color:  #DD0048 !important;
+}
+#lobby-userlist-user-ransei strong em, #lobby-userlist-user-ransei strong, #lobby-userlist-user-ransei span, #staff-userlist-user-ransei strong em, #staff-userlist-user-ransei strong, #staff-userlist-user-ransei span, #shadowbanroom-userlist-user-ransei strong em, #shadowbanroom-userlist-user-ransei strong, #shadowbanroom-userlist-user-ransei span, #thejusticeleague-userlist-user-ransei strong em, #thejusticeleague-userlist-user-ransei strong, #thejusticeleague-userlist-user-ransei span, #strategy-userlist-user-ransei strong em, #strategy-userlist-user-ransei strong, #strategy-userlist-user-ransei span, #monotype-userlist-user-ransei strong em, #monotype-userlist-user-ransei strong, #monotype-userlist-user-ransei span, #casino-userlist-user-ransei strong em, #casino-userlist-user-ransei strong, #casino-userlist-user-ransei span, #tournaments-userlist-user-ransei strong em, #tournaments-userlist-user-ransei strong, #tournaments-userlist-user-ransei span, #youtube-userlist-user-ransei strong em, #youtube-userlist-user-ransei strong, #youtube-userlist-user-ransei span, #franais-userlist-user-ransei strong em, #franais-userlist-user-ransei strong, #franais-userlist-user-ransei span, #hindi-userlist-user-ransei strong em, #hindi-userlist-user-ransei strong, #hindi-userlist-user-ransei span, #gamecorner-userlist-user-ransei strong em, #gamecorner-userlist-user-ransei strong, #gamecorner-userlist-user-ransei span, #artshop-userlist-user-ransei strong em, #artshop-userlist-user-ransei strong, #artshop-userlist-user-ransei span, #flare-userlist-user-ransei strong em, #flare-userlist-user-ransei strong, #flare-userlist-user-ransei span, #aqua-userlist-user-ransei strong em, #aqua-userlist-user-ransei strong, #aqua-userlist-user-ransei span, #magma-userlist-user-ransei strong em, #magma-userlist-user-ransei strong, #magma-userlist-user-ransei span, #rocket-userlist-user-ransei strong em, #rocket-userlist-user-ransei strong, #rocket-userlist-user-ransei span, #frpl-userlist-user-ransei strong em, #frpl-userlist-user-ransei strong, #frpl-userlist-user-ransei span, #thewolfpackleague-userlist-user-ransei strong em, #thewolfpackleague-userlist-user-ransei strong, #thewolfpackleague-userlist-user-ransei span, #test-userlist-user-ransei strong em, #test-userlist-user-ransei strong, #test-userlist-user-ransei span, #battletower-userlist-user-ransei strong em, #battletower-userlist-user-ransei strong, #battletower-userlist-user-ransei span, #othermetas-userlist-user-ransei strong em, #othermetas-userlist-user-ransei strong, #othermetas-userlist-user-ransei span, #thelockonleague-userlist-user-ransei strong em, #thelockonleague-userlist-user-ransei strong, #thelockonleague-userlist-user-ransei span, #panchamsclubforkids-userlist-user-ransei strong em, #panchamsclubforkids-userlist-user-ransei strong, #panchamsclubforkids-userlist-user-ransei span{
+color:  #DAC007 !important;
+}
+.chat.chatmessage-ransei strong {
+color:  #DAC007 !important;
+}
+/* COLORS END */
+/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span, #thelockonleague-userlist-user-richardadams strong em, #thelockonleague-userlist-user-richardadams strong, #thelockonleague-userlist-user-richardadams span, #panchamsclubforkids-userlist-user-richardadams strong em, #panchamsclubforkids-userlist-user-richardadams strong, #panchamsclubforkids-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span, #thelockonleague-userlist-user-paul71 strong em, #thelockonleague-userlist-user-paul71 strong, #thelockonleague-userlist-user-paul71 span, #panchamsclubforkids-userlist-user-paul71 strong em, #panchamsclubforkids-userlist-user-paul71 strong, #panchamsclubforkids-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span, #thelockonleague-userlist-user-artikodyn strong em, #thelockonleague-userlist-user-artikodyn strong, #thelockonleague-userlist-user-artikodyn span, #panchamsclubforkids-userlist-user-artikodyn strong em, #panchamsclubforkids-userlist-user-artikodyn strong, #panchamsclubforkids-userlist-user-artikodyn span{
+color:  #DD0048 !important;
+}
+.chat.chatmessage-artikodyn strong {
+color:  #DD0048 !important;
+}
+#lobby-userlist-user-ransei strong em, #lobby-userlist-user-ransei strong, #lobby-userlist-user-ransei span, #staff-userlist-user-ransei strong em, #staff-userlist-user-ransei strong, #staff-userlist-user-ransei span, #shadowbanroom-userlist-user-ransei strong em, #shadowbanroom-userlist-user-ransei strong, #shadowbanroom-userlist-user-ransei span, #thejusticeleague-userlist-user-ransei strong em, #thejusticeleague-userlist-user-ransei strong, #thejusticeleague-userlist-user-ransei span, #strategy-userlist-user-ransei strong em, #strategy-userlist-user-ransei strong, #strategy-userlist-user-ransei span, #monotype-userlist-user-ransei strong em, #monotype-userlist-user-ransei strong, #monotype-userlist-user-ransei span, #casino-userlist-user-ransei strong em, #casino-userlist-user-ransei strong, #casino-userlist-user-ransei span, #tournaments-userlist-user-ransei strong em, #tournaments-userlist-user-ransei strong, #tournaments-userlist-user-ransei span, #youtube-userlist-user-ransei strong em, #youtube-userlist-user-ransei strong, #youtube-userlist-user-ransei span, #franais-userlist-user-ransei strong em, #franais-userlist-user-ransei strong, #franais-userlist-user-ransei span, #hindi-userlist-user-ransei strong em, #hindi-userlist-user-ransei strong, #hindi-userlist-user-ransei span, #gamecorner-userlist-user-ransei strong em, #gamecorner-userlist-user-ransei strong, #gamecorner-userlist-user-ransei span, #artshop-userlist-user-ransei strong em, #artshop-userlist-user-ransei strong, #artshop-userlist-user-ransei span, #flare-userlist-user-ransei strong em, #flare-userlist-user-ransei strong, #flare-userlist-user-ransei span, #aqua-userlist-user-ransei strong em, #aqua-userlist-user-ransei strong, #aqua-userlist-user-ransei span, #magma-userlist-user-ransei strong em, #magma-userlist-user-ransei strong, #magma-userlist-user-ransei span, #rocket-userlist-user-ransei strong em, #rocket-userlist-user-ransei strong, #rocket-userlist-user-ransei span, #frpl-userlist-user-ransei strong em, #frpl-userlist-user-ransei strong, #frpl-userlist-user-ransei span, #thewolfpackleague-userlist-user-ransei strong em, #thewolfpackleague-userlist-user-ransei strong, #thewolfpackleague-userlist-user-ransei span, #test-userlist-user-ransei strong em, #test-userlist-user-ransei strong, #test-userlist-user-ransei span, #battletower-userlist-user-ransei strong em, #battletower-userlist-user-ransei strong, #battletower-userlist-user-ransei span, #othermetas-userlist-user-ransei strong em, #othermetas-userlist-user-ransei strong, #othermetas-userlist-user-ransei span, #thelockonleague-userlist-user-ransei strong em, #thelockonleague-userlist-user-ransei strong, #thelockonleague-userlist-user-ransei span, #panchamsclubforkids-userlist-user-ransei strong em, #panchamsclubforkids-userlist-user-ransei strong, #panchamsclubforkids-userlist-user-ransei span{
+color:  #DAC007 !important;
+}
+.chat.chatmessage-ransei strong {
+color:  #DAC007 !important;
+}
+#lobby-userlist-user-lysandrehaji strong em, #lobby-userlist-user-lysandrehaji strong, #lobby-userlist-user-lysandrehaji span, #staff-userlist-user-lysandrehaji strong em, #staff-userlist-user-lysandrehaji strong, #staff-userlist-user-lysandrehaji span, #shadowbanroom-userlist-user-lysandrehaji strong em, #shadowbanroom-userlist-user-lysandrehaji strong, #shadowbanroom-userlist-user-lysandrehaji span, #thejusticeleague-userlist-user-lysandrehaji strong em, #thejusticeleague-userlist-user-lysandrehaji strong, #thejusticeleague-userlist-user-lysandrehaji span, #strategy-userlist-user-lysandrehaji strong em, #strategy-userlist-user-lysandrehaji strong, #strategy-userlist-user-lysandrehaji span, #monotype-userlist-user-lysandrehaji strong em, #monotype-userlist-user-lysandrehaji strong, #monotype-userlist-user-lysandrehaji span, #casino-userlist-user-lysandrehaji strong em, #casino-userlist-user-lysandrehaji strong, #casino-userlist-user-lysandrehaji span, #tournaments-userlist-user-lysandrehaji strong em, #tournaments-userlist-user-lysandrehaji strong, #tournaments-userlist-user-lysandrehaji span, #youtube-userlist-user-lysandrehaji strong em, #youtube-userlist-user-lysandrehaji strong, #youtube-userlist-user-lysandrehaji span, #franais-userlist-user-lysandrehaji strong em, #franais-userlist-user-lysandrehaji strong, #franais-userlist-user-lysandrehaji span, #hindi-userlist-user-lysandrehaji strong em, #hindi-userlist-user-lysandrehaji strong, #hindi-userlist-user-lysandrehaji span, #gamecorner-userlist-user-lysandrehaji strong em, #gamecorner-userlist-user-lysandrehaji strong, #gamecorner-userlist-user-lysandrehaji span, #artshop-userlist-user-lysandrehaji strong em, #artshop-userlist-user-lysandrehaji strong, #artshop-userlist-user-lysandrehaji span, #flare-userlist-user-lysandrehaji strong em, #flare-userlist-user-lysandrehaji strong, #flare-userlist-user-lysandrehaji span, #aqua-userlist-user-lysandrehaji strong em, #aqua-userlist-user-lysandrehaji strong, #aqua-userlist-user-lysandrehaji span, #magma-userlist-user-lysandrehaji strong em, #magma-userlist-user-lysandrehaji strong, #magma-userlist-user-lysandrehaji span, #rocket-userlist-user-lysandrehaji strong em, #rocket-userlist-user-lysandrehaji strong, #rocket-userlist-user-lysandrehaji span, #frpl-userlist-user-lysandrehaji strong em, #frpl-userlist-user-lysandrehaji strong, #frpl-userlist-user-lysandrehaji span, #thewolfpackleague-userlist-user-lysandrehaji strong em, #thewolfpackleague-userlist-user-lysandrehaji strong, #thewolfpackleague-userlist-user-lysandrehaji span, #test-userlist-user-lysandrehaji strong em, #test-userlist-user-lysandrehaji strong, #test-userlist-user-lysandrehaji span, #battletower-userlist-user-lysandrehaji strong em, #battletower-userlist-user-lysandrehaji strong, #battletower-userlist-user-lysandrehaji span, #othermetas-userlist-user-lysandrehaji strong em, #othermetas-userlist-user-lysandrehaji strong, #othermetas-userlist-user-lysandrehaji span, #thelockonleague-userlist-user-lysandrehaji strong em, #thelockonleague-userlist-user-lysandrehaji strong, #thelockonleague-userlist-user-lysandrehaji span, #panchamsclubforkids-userlist-user-lysandrehaji strong em, #panchamsclubforkids-userlist-user-lysandrehaji strong, #panchamsclubforkids-userlist-user-lysandrehaji span{
+color: #FF0009 !important;
+}
+.chat.chatmessage-lysandrehaji strong {
+color: #FF0009 !important;
+}
+/* COLORS END */
+
+
+  #lobby-userlist-user-shivamrustagi, #staff-userlist-user-shivamrustagi, #hindi-userlist-user-shivamrustagi, #gamecorner-userlist-user-shivamrustagi, #shadowbanroom-userlist-user-shivamrustagi, #aqua-userlist-user-shivamrustagi, #casino-userlist-user-shivamrustagi, #tournaments-userlist-user-shivamrustagi, #thejusticeleague-userlist-user-shivamrustagi, #monotype-userlist-user-shivamrustagi, #panchamsclubforkids-userlist-user-shivamrustagi { 
+    background: rgba(244, 244, 244, 0.8) url("https://31.media.tumblr.com/35248228275cfe9bb0b616765635a70a/tumblr_inline_nab1i70Bs91qbvn5l.gif") right no-repeat;
+  }/* COLORS START */
+#lobby-userlist-user-richardadams strong em, #lobby-userlist-user-richardadams strong, #lobby-userlist-user-richardadams span, #staff-userlist-user-richardadams strong em, #staff-userlist-user-richardadams strong, #staff-userlist-user-richardadams span, #shadowbanroom-userlist-user-richardadams strong em, #shadowbanroom-userlist-user-richardadams strong, #shadowbanroom-userlist-user-richardadams span, #thejusticeleague-userlist-user-richardadams strong em, #thejusticeleague-userlist-user-richardadams strong, #thejusticeleague-userlist-user-richardadams span, #strategy-userlist-user-richardadams strong em, #strategy-userlist-user-richardadams strong, #strategy-userlist-user-richardadams span, #monotype-userlist-user-richardadams strong em, #monotype-userlist-user-richardadams strong, #monotype-userlist-user-richardadams span, #casino-userlist-user-richardadams strong em, #casino-userlist-user-richardadams strong, #casino-userlist-user-richardadams span, #tournaments-userlist-user-richardadams strong em, #tournaments-userlist-user-richardadams strong, #tournaments-userlist-user-richardadams span, #youtube-userlist-user-richardadams strong em, #youtube-userlist-user-richardadams strong, #youtube-userlist-user-richardadams span, #franais-userlist-user-richardadams strong em, #franais-userlist-user-richardadams strong, #franais-userlist-user-richardadams span, #hindi-userlist-user-richardadams strong em, #hindi-userlist-user-richardadams strong, #hindi-userlist-user-richardadams span, #gamecorner-userlist-user-richardadams strong em, #gamecorner-userlist-user-richardadams strong, #gamecorner-userlist-user-richardadams span, #artshop-userlist-user-richardadams strong em, #artshop-userlist-user-richardadams strong, #artshop-userlist-user-richardadams span, #flare-userlist-user-richardadams strong em, #flare-userlist-user-richardadams strong, #flare-userlist-user-richardadams span, #aqua-userlist-user-richardadams strong em, #aqua-userlist-user-richardadams strong, #aqua-userlist-user-richardadams span, #magma-userlist-user-richardadams strong em, #magma-userlist-user-richardadams strong, #magma-userlist-user-richardadams span, #rocket-userlist-user-richardadams strong em, #rocket-userlist-user-richardadams strong, #rocket-userlist-user-richardadams span, #frpl-userlist-user-richardadams strong em, #frpl-userlist-user-richardadams strong, #frpl-userlist-user-richardadams span, #thewolfpackleague-userlist-user-richardadams strong em, #thewolfpackleague-userlist-user-richardadams strong, #thewolfpackleague-userlist-user-richardadams span, #test-userlist-user-richardadams strong em, #test-userlist-user-richardadams strong, #test-userlist-user-richardadams span, #battletower-userlist-user-richardadams strong em, #battletower-userlist-user-richardadams strong, #battletower-userlist-user-richardadams span, #othermetas-userlist-user-richardadams strong em, #othermetas-userlist-user-richardadams strong, #othermetas-userlist-user-richardadams span, #panchamsclubforkids-userlist-user-richardadams strong em, #panchamsclubforkids-userlist-user-richardadams strong, #panchamsclubforkids-userlist-user-richardadams span, #thealphaleague-userlist-user-richardadams strong em, #thealphaleague-userlist-user-richardadams strong, #thealphaleague-userlist-user-richardadams span, #development-userlist-user-richardadams strong em, #development-userlist-user-richardadams strong, #development-userlist-user-richardadams span, #nospamfams-userlist-user-richardadams strong em, #nospamfams-userlist-user-richardadams strong, #nospamfams-userlist-user-richardadams span{
+color:  Purple !important;
+}
+.chat.chatmessage-richardadams strong {
+color:  Purple !important;
+}
+#lobby-userlist-user-paul71 strong em, #lobby-userlist-user-paul71 strong, #lobby-userlist-user-paul71 span, #staff-userlist-user-paul71 strong em, #staff-userlist-user-paul71 strong, #staff-userlist-user-paul71 span, #shadowbanroom-userlist-user-paul71 strong em, #shadowbanroom-userlist-user-paul71 strong, #shadowbanroom-userlist-user-paul71 span, #thejusticeleague-userlist-user-paul71 strong em, #thejusticeleague-userlist-user-paul71 strong, #thejusticeleague-userlist-user-paul71 span, #strategy-userlist-user-paul71 strong em, #strategy-userlist-user-paul71 strong, #strategy-userlist-user-paul71 span, #monotype-userlist-user-paul71 strong em, #monotype-userlist-user-paul71 strong, #monotype-userlist-user-paul71 span, #casino-userlist-user-paul71 strong em, #casino-userlist-user-paul71 strong, #casino-userlist-user-paul71 span, #tournaments-userlist-user-paul71 strong em, #tournaments-userlist-user-paul71 strong, #tournaments-userlist-user-paul71 span, #youtube-userlist-user-paul71 strong em, #youtube-userlist-user-paul71 strong, #youtube-userlist-user-paul71 span, #franais-userlist-user-paul71 strong em, #franais-userlist-user-paul71 strong, #franais-userlist-user-paul71 span, #hindi-userlist-user-paul71 strong em, #hindi-userlist-user-paul71 strong, #hindi-userlist-user-paul71 span, #gamecorner-userlist-user-paul71 strong em, #gamecorner-userlist-user-paul71 strong, #gamecorner-userlist-user-paul71 span, #artshop-userlist-user-paul71 strong em, #artshop-userlist-user-paul71 strong, #artshop-userlist-user-paul71 span, #flare-userlist-user-paul71 strong em, #flare-userlist-user-paul71 strong, #flare-userlist-user-paul71 span, #aqua-userlist-user-paul71 strong em, #aqua-userlist-user-paul71 strong, #aqua-userlist-user-paul71 span, #magma-userlist-user-paul71 strong em, #magma-userlist-user-paul71 strong, #magma-userlist-user-paul71 span, #rocket-userlist-user-paul71 strong em, #rocket-userlist-user-paul71 strong, #rocket-userlist-user-paul71 span, #frpl-userlist-user-paul71 strong em, #frpl-userlist-user-paul71 strong, #frpl-userlist-user-paul71 span, #thewolfpackleague-userlist-user-paul71 strong em, #thewolfpackleague-userlist-user-paul71 strong, #thewolfpackleague-userlist-user-paul71 span, #test-userlist-user-paul71 strong em, #test-userlist-user-paul71 strong, #test-userlist-user-paul71 span, #battletower-userlist-user-paul71 strong em, #battletower-userlist-user-paul71 strong, #battletower-userlist-user-paul71 span, #othermetas-userlist-user-paul71 strong em, #othermetas-userlist-user-paul71 strong, #othermetas-userlist-user-paul71 span, #panchamsclubforkids-userlist-user-paul71 strong em, #panchamsclubforkids-userlist-user-paul71 strong, #panchamsclubforkids-userlist-user-paul71 span, #thealphaleague-userlist-user-paul71 strong em, #thealphaleague-userlist-user-paul71 strong, #thealphaleague-userlist-user-paul71 span, #development-userlist-user-paul71 strong em, #development-userlist-user-paul71 strong, #development-userlist-user-paul71 span, #nospamfams-userlist-user-paul71 strong em, #nospamfams-userlist-user-paul71 strong, #nospamfams-userlist-user-paul71 span{
+color:  #FF8000	 !important;
+}
+.chat.chatmessage-paul71 strong {
+color:  #FF8000	 !important;
+}
+#lobby-userlist-user-artikodyn strong em, #lobby-userlist-user-artikodyn strong, #lobby-userlist-user-artikodyn span, #staff-userlist-user-artikodyn strong em, #staff-userlist-user-artikodyn strong, #staff-userlist-user-artikodyn span, #shadowbanroom-userlist-user-artikodyn strong em, #shadowbanroom-userlist-user-artikodyn strong, #shadowbanroom-userlist-user-artikodyn span, #thejusticeleague-userlist-user-artikodyn strong em, #thejusticeleague-userlist-user-artikodyn strong, #thejusticeleague-userlist-user-artikodyn span, #strategy-userlist-user-artikodyn strong em, #strategy-userlist-user-artikodyn strong, #strategy-userlist-user-artikodyn span, #monotype-userlist-user-artikodyn strong em, #monotype-userlist-user-artikodyn strong, #monotype-userlist-user-artikodyn span, #casino-userlist-user-artikodyn strong em, #casino-userlist-user-artikodyn strong, #casino-userlist-user-artikodyn span, #tournaments-userlist-user-artikodyn strong em, #tournaments-userlist-user-artikodyn strong, #tournaments-userlist-user-artikodyn span, #youtube-userlist-user-artikodyn strong em, #youtube-userlist-user-artikodyn strong, #youtube-userlist-user-artikodyn span, #franais-userlist-user-artikodyn strong em, #franais-userlist-user-artikodyn strong, #franais-userlist-user-artikodyn span, #hindi-userlist-user-artikodyn strong em, #hindi-userlist-user-artikodyn strong, #hindi-userlist-user-artikodyn span, #gamecorner-userlist-user-artikodyn strong em, #gamecorner-userlist-user-artikodyn strong, #gamecorner-userlist-user-artikodyn span, #artshop-userlist-user-artikodyn strong em, #artshop-userlist-user-artikodyn strong, #artshop-userlist-user-artikodyn span, #flare-userlist-user-artikodyn strong em, #flare-userlist-user-artikodyn strong, #flare-userlist-user-artikodyn span, #aqua-userlist-user-artikodyn strong em, #aqua-userlist-user-artikodyn strong, #aqua-userlist-user-artikodyn span, #magma-userlist-user-artikodyn strong em, #magma-userlist-user-artikodyn strong, #magma-userlist-user-artikodyn span, #rocket-userlist-user-artikodyn strong em, #rocket-userlist-user-artikodyn strong, #rocket-userlist-user-artikodyn span, #frpl-userlist-user-artikodyn strong em, #frpl-userlist-user-artikodyn strong, #frpl-userlist-user-artikodyn span, #thewolfpackleague-userlist-user-artikodyn strong em, #thewolfpackleague-userlist-user-artikodyn strong, #thewolfpackleague-userlist-user-artikodyn span, #test-userlist-user-artikodyn strong em, #test-userlist-user-artikodyn strong, #test-userlist-user-artikodyn span, #battletower-userlist-user-artikodyn strong em, #battletower-userlist-user-artikodyn strong, #battletower-userlist-user-artikodyn span, #othermetas-userlist-user-artikodyn strong em, #othermetas-userlist-user-artikodyn strong, #othermetas-userlist-user-artikodyn span, #panchamsclubforkids-userlist-user-artikodyn strong em, #panchamsclubforkids-userlist-user-artikodyn strong, #panchamsclubforkids-userlist-user-artikodyn span, #thealphaleague-userlist-user-artikodyn strong em, #thealphaleague-userlist-user-artikodyn strong, #thealphaleague-userlist-user-artikodyn span, #development-userlist-user-artikodyn strong em, #development-userlist-user-artikodyn strong, #development-userlist-user-artikodyn span, #nospamfams-userlist-user-artikodyn strong em, #nospamfams-userlist-user-artikodyn strong, #nospamfams-userlist-user-artikodyn span{
+color:  #DD0048 !important;
+}
+.chat.chatmessage-artikodyn strong {
+color:  #DD0048 !important;
+}
+#lobby-userlist-user-ransei strong em, #lobby-userlist-user-ransei strong, #lobby-userlist-user-ransei span, #staff-userlist-user-ransei strong em, #staff-userlist-user-ransei strong, #staff-userlist-user-ransei span, #shadowbanroom-userlist-user-ransei strong em, #shadowbanroom-userlist-user-ransei strong, #shadowbanroom-userlist-user-ransei span, #thejusticeleague-userlist-user-ransei strong em, #thejusticeleague-userlist-user-ransei strong, #thejusticeleague-userlist-user-ransei span, #strategy-userlist-user-ransei strong em, #strategy-userlist-user-ransei strong, #strategy-userlist-user-ransei span, #monotype-userlist-user-ransei strong em, #monotype-userlist-user-ransei strong, #monotype-userlist-user-ransei span, #casino-userlist-user-ransei strong em, #casino-userlist-user-ransei strong, #casino-userlist-user-ransei span, #tournaments-userlist-user-ransei strong em, #tournaments-userlist-user-ransei strong, #tournaments-userlist-user-ransei span, #youtube-userlist-user-ransei strong em, #youtube-userlist-user-ransei strong, #youtube-userlist-user-ransei span, #franais-userlist-user-ransei strong em, #franais-userlist-user-ransei strong, #franais-userlist-user-ransei span, #hindi-userlist-user-ransei strong em, #hindi-userlist-user-ransei strong, #hindi-userlist-user-ransei span, #gamecorner-userlist-user-ransei strong em, #gamecorner-userlist-user-ransei strong, #gamecorner-userlist-user-ransei span, #artshop-userlist-user-ransei strong em, #artshop-userlist-user-ransei strong, #artshop-userlist-user-ransei span, #flare-userlist-user-ransei strong em, #flare-userlist-user-ransei strong, #flare-userlist-user-ransei span, #aqua-userlist-user-ransei strong em, #aqua-userlist-user-ransei strong, #aqua-userlist-user-ransei span, #magma-userlist-user-ransei strong em, #magma-userlist-user-ransei strong, #magma-userlist-user-ransei span, #rocket-userlist-user-ransei strong em, #rocket-userlist-user-ransei strong, #rocket-userlist-user-ransei span, #frpl-userlist-user-ransei strong em, #frpl-userlist-user-ransei strong, #frpl-userlist-user-ransei span, #thewolfpackleague-userlist-user-ransei strong em, #thewolfpackleague-userlist-user-ransei strong, #thewolfpackleague-userlist-user-ransei span, #test-userlist-user-ransei strong em, #test-userlist-user-ransei strong, #test-userlist-user-ransei span, #battletower-userlist-user-ransei strong em, #battletower-userlist-user-ransei strong, #battletower-userlist-user-ransei span, #othermetas-userlist-user-ransei strong em, #othermetas-userlist-user-ransei strong, #othermetas-userlist-user-ransei span, #panchamsclubforkids-userlist-user-ransei strong em, #panchamsclubforkids-userlist-user-ransei strong, #panchamsclubforkids-userlist-user-ransei span, #thealphaleague-userlist-user-ransei strong em, #thealphaleague-userlist-user-ransei strong, #thealphaleague-userlist-user-ransei span, #development-userlist-user-ransei strong em, #development-userlist-user-ransei strong, #development-userlist-user-ransei span, #nospamfams-userlist-user-ransei strong em, #nospamfams-userlist-user-ransei strong, #nospamfams-userlist-user-ransei span{
+color:  #DAC007 !important;
+}
+.chat.chatmessage-ransei strong {
+color:  #DAC007 !important;
+}
+#lobby-userlist-user-lysandrehaji strong em, #lobby-userlist-user-lysandrehaji strong, #lobby-userlist-user-lysandrehaji span, #staff-userlist-user-lysandrehaji strong em, #staff-userlist-user-lysandrehaji strong, #staff-userlist-user-lysandrehaji span, #shadowbanroom-userlist-user-lysandrehaji strong em, #shadowbanroom-userlist-user-lysandrehaji strong, #shadowbanroom-userlist-user-lysandrehaji span, #thejusticeleague-userlist-user-lysandrehaji strong em, #thejusticeleague-userlist-user-lysandrehaji strong, #thejusticeleague-userlist-user-lysandrehaji span, #strategy-userlist-user-lysandrehaji strong em, #strategy-userlist-user-lysandrehaji strong, #strategy-userlist-user-lysandrehaji span, #monotype-userlist-user-lysandrehaji strong em, #monotype-userlist-user-lysandrehaji strong, #monotype-userlist-user-lysandrehaji span, #casino-userlist-user-lysandrehaji strong em, #casino-userlist-user-lysandrehaji strong, #casino-userlist-user-lysandrehaji span, #tournaments-userlist-user-lysandrehaji strong em, #tournaments-userlist-user-lysandrehaji strong, #tournaments-userlist-user-lysandrehaji span, #youtube-userlist-user-lysandrehaji strong em, #youtube-userlist-user-lysandrehaji strong, #youtube-userlist-user-lysandrehaji span, #franais-userlist-user-lysandrehaji strong em, #franais-userlist-user-lysandrehaji strong, #franais-userlist-user-lysandrehaji span, #hindi-userlist-user-lysandrehaji strong em, #hindi-userlist-user-lysandrehaji strong, #hindi-userlist-user-lysandrehaji span, #gamecorner-userlist-user-lysandrehaji strong em, #gamecorner-userlist-user-lysandrehaji strong, #gamecorner-userlist-user-lysandrehaji span, #artshop-userlist-user-lysandrehaji strong em, #artshop-userlist-user-lysandrehaji strong, #artshop-userlist-user-lysandrehaji span, #flare-userlist-user-lysandrehaji strong em, #flare-userlist-user-lysandrehaji strong, #flare-userlist-user-lysandrehaji span, #aqua-userlist-user-lysandrehaji strong em, #aqua-userlist-user-lysandrehaji strong, #aqua-userlist-user-lysandrehaji span, #magma-userlist-user-lysandrehaji strong em, #magma-userlist-user-lysandrehaji strong, #magma-userlist-user-lysandrehaji span, #rocket-userlist-user-lysandrehaji strong em, #rocket-userlist-user-lysandrehaji strong, #rocket-userlist-user-lysandrehaji span, #frpl-userlist-user-lysandrehaji strong em, #frpl-userlist-user-lysandrehaji strong, #frpl-userlist-user-lysandrehaji span, #thewolfpackleague-userlist-user-lysandrehaji strong em, #thewolfpackleague-userlist-user-lysandrehaji strong, #thewolfpackleague-userlist-user-lysandrehaji span, #test-userlist-user-lysandrehaji strong em, #test-userlist-user-lysandrehaji strong, #test-userlist-user-lysandrehaji span, #battletower-userlist-user-lysandrehaji strong em, #battletower-userlist-user-lysandrehaji strong, #battletower-userlist-user-lysandrehaji span, #othermetas-userlist-user-lysandrehaji strong em, #othermetas-userlist-user-lysandrehaji strong, #othermetas-userlist-user-lysandrehaji span, #panchamsclubforkids-userlist-user-lysandrehaji strong em, #panchamsclubforkids-userlist-user-lysandrehaji strong, #panchamsclubforkids-userlist-user-lysandrehaji span, #thealphaleague-userlist-user-lysandrehaji strong em, #thealphaleague-userlist-user-lysandrehaji strong, #thealphaleague-userlist-user-lysandrehaji span, #development-userlist-user-lysandrehaji strong em, #development-userlist-user-lysandrehaji strong, #development-userlist-user-lysandrehaji span, #nospamfams-userlist-user-lysandrehaji strong em, #nospamfams-userlist-user-lysandrehaji strong, #nospamfams-userlist-user-lysandrehaji span{
+color: #FF0009 !important;
+}
+.chat.chatmessage-lysandrehaji strong {
+color: #FF0009 !important;
+}
+#lobby-userlist-user-pieddychomp strong em, #lobby-userlist-user-pieddychomp strong, #lobby-userlist-user-pieddychomp span, #staff-userlist-user-pieddychomp strong em, #staff-userlist-user-pieddychomp strong, #staff-userlist-user-pieddychomp span, #shadowbanroom-userlist-user-pieddychomp strong em, #shadowbanroom-userlist-user-pieddychomp strong, #shadowbanroom-userlist-user-pieddychomp span, #thejusticeleague-userlist-user-pieddychomp strong em, #thejusticeleague-userlist-user-pieddychomp strong, #thejusticeleague-userlist-user-pieddychomp span, #strategy-userlist-user-pieddychomp strong em, #strategy-userlist-user-pieddychomp strong, #strategy-userlist-user-pieddychomp span, #monotype-userlist-user-pieddychomp strong em, #monotype-userlist-user-pieddychomp strong, #monotype-userlist-user-pieddychomp span, #casino-userlist-user-pieddychomp strong em, #casino-userlist-user-pieddychomp strong, #casino-userlist-user-pieddychomp span, #tournaments-userlist-user-pieddychomp strong em, #tournaments-userlist-user-pieddychomp strong, #tournaments-userlist-user-pieddychomp span, #youtube-userlist-user-pieddychomp strong em, #youtube-userlist-user-pieddychomp strong, #youtube-userlist-user-pieddychomp span, #franais-userlist-user-pieddychomp strong em, #franais-userlist-user-pieddychomp strong, #franais-userlist-user-pieddychomp span, #hindi-userlist-user-pieddychomp strong em, #hindi-userlist-user-pieddychomp strong, #hindi-userlist-user-pieddychomp span, #gamecorner-userlist-user-pieddychomp strong em, #gamecorner-userlist-user-pieddychomp strong, #gamecorner-userlist-user-pieddychomp span, #artshop-userlist-user-pieddychomp strong em, #artshop-userlist-user-pieddychomp strong, #artshop-userlist-user-pieddychomp span, #flare-userlist-user-pieddychomp strong em, #flare-userlist-user-pieddychomp strong, #flare-userlist-user-pieddychomp span, #aqua-userlist-user-pieddychomp strong em, #aqua-userlist-user-pieddychomp strong, #aqua-userlist-user-pieddychomp span, #magma-userlist-user-pieddychomp strong em, #magma-userlist-user-pieddychomp strong, #magma-userlist-user-pieddychomp span, #rocket-userlist-user-pieddychomp strong em, #rocket-userlist-user-pieddychomp strong, #rocket-userlist-user-pieddychomp span, #frpl-userlist-user-pieddychomp strong em, #frpl-userlist-user-pieddychomp strong, #frpl-userlist-user-pieddychomp span, #thewolfpackleague-userlist-user-pieddychomp strong em, #thewolfpackleague-userlist-user-pieddychomp strong, #thewolfpackleague-userlist-user-pieddychomp span, #test-userlist-user-pieddychomp strong em, #test-userlist-user-pieddychomp strong, #test-userlist-user-pieddychomp span, #battletower-userlist-user-pieddychomp strong em, #battletower-userlist-user-pieddychomp strong, #battletower-userlist-user-pieddychomp span, #othermetas-userlist-user-pieddychomp strong em, #othermetas-userlist-user-pieddychomp strong, #othermetas-userlist-user-pieddychomp span, #panchamsclubforkids-userlist-user-pieddychomp strong em, #panchamsclubforkids-userlist-user-pieddychomp strong, #panchamsclubforkids-userlist-user-pieddychomp span, #thealphaleague-userlist-user-pieddychomp strong em, #thealphaleague-userlist-user-pieddychomp strong, #thealphaleague-userlist-user-pieddychomp span, #development-userlist-user-pieddychomp strong em, #development-userlist-user-pieddychomp strong, #development-userlist-user-pieddychomp span, #nospamfams-userlist-user-pieddychomp strong em, #nospamfams-userlist-user-pieddychomp strong, #nospamfams-userlist-user-pieddychomp span{
+color:  #003366 !important;
+}
+.chat.chatmessage-pieddychomp strong {
+color:  #003366 !important;
+}
+/* COLORS END */
+
+
+  #lobby-userlist-user-lysandrehaji  em.group, #staff-userlist-user-lysandrehaji  em.group, #shadowbanroom-userlist-user-lysandrehaji  em.group, #psgo-userlist-user-lysandrehaji  em.group, #flare-userlist-user-lysandrehaji  em.group, #monotype-userlist-user-lysandrehaji  em.group, #casino-userlist-user-lysandrehaji  em.group, #tournaments-userlist-user-lysandrehaji  em.group { 
+    color:#FF0009;
+  }/* COLORS START */
+#lobby-userlist-user-choeloo strong em, #lobby-userlist-user-choeloo strong, #lobby-userlist-user-choeloo span, #staff-userlist-user-choeloo strong em, #staff-userlist-user-choeloo strong, #staff-userlist-user-choeloo span, #shadowbanroom-userlist-user-choeloo strong em, #shadowbanroom-userlist-user-choeloo strong, #shadowbanroom-userlist-user-choeloo span, #french-userlist-user-choeloo strong em, #french-userlist-user-choeloo strong, #french-userlist-user-choeloo span, #tournaments-userlist-user-choeloo strong em, #tournaments-userlist-user-choeloo strong, #tournaments-userlist-user-choeloo span, #casino-userlist-user-choeloo strong em, #casino-userlist-user-choeloo strong, #casino-userlist-user-choeloo span, #packs-userlist-user-choeloo strong em, #packs-userlist-user-choeloo strong, #packs-userlist-user-choeloo span, #pokemongo-userlist-user-choeloo strong em, #pokemongo-userlist-user-choeloo strong, #pokemongo-userlist-user-choeloo span, #linoooonesroom-userlist-user-choeloo strong em, #linoooonesroom-userlist-user-choeloo strong, #linoooonesroom-userlist-user-choeloo span, #swag-userlist-user-choeloo strong em, #swag-userlist-user-choeloo strong, #swag-userlist-user-choeloo span, #thestudio-userlist-user-choeloo strong em, #thestudio-userlist-user-choeloo strong, #thestudio-userlist-user-choeloo span, #inazumaeleven-userlist-user-choeloo strong em, #inazumaeleven-userlist-user-choeloo strong, #inazumaeleven-userlist-user-choeloo span, #damonspalace-userlist-user-choeloo strong em, #damonspalace-userlist-user-choeloo strong, #damonspalace-userlist-user-choeloo span, #marketplace-userlist-user-choeloo strong em, #marketplace-userlist-user-choeloo strong, #marketplace-userlist-user-choeloo span, #anime-userlist-user-choeloo strong em, #anime-userlist-user-choeloo strong, #anime-userlist-user-choeloo span, #sunandmoonhype-userlist-user-choeloo strong em, #sunandmoonhype-userlist-user-choeloo strong, #sunandmoonhype-userlist-user-choeloo span, #help-userlist-user-choeloo strong em, #help-userlist-user-choeloo strong, #help-userlist-user-choeloo span, #socialmedia-userlist-user-choeloo strong em, #socialmedia-userlist-user-choeloo strong, #socialmedia-userlist-user-choeloo span, #wifi-userlist-user-choeloo strong em, #wifi-userlist-user-choeloo strong, #wifi-userlist-user-choeloo span, #competitivebattling-userlist-user-choeloo strong em, #competitivebattling-userlist-user-choeloo strong, #competitivebattling-userlist-user-choeloo span, #ratemyteam-userlist-user-choeloo strong em, #ratemyteam-userlist-user-choeloo strong, #ratemyteam-userlist-user-choeloo span, #smba-userlist-user-choeloo strong em, #smba-userlist-user-choeloo strong, #smba-userlist-user-choeloo span, #noctility-userlist-user-choeloo strong em, #noctility-userlist-user-choeloo strong, #noctility-userlist-user-choeloo span{
+color: #36B39A !important;
+}
+.chat.chatmessage-choeloo strong {
+color: #36B39A !important;
+}
+#lobby-userlist-user-setpawwz strong em, #lobby-userlist-user-setpawwz strong, #lobby-userlist-user-setpawwz span, #staff-userlist-user-setpawwz strong em, #staff-userlist-user-setpawwz strong, #staff-userlist-user-setpawwz span, #shadowbanroom-userlist-user-setpawwz strong em, #shadowbanroom-userlist-user-setpawwz strong, #shadowbanroom-userlist-user-setpawwz span, #french-userlist-user-setpawwz strong em, #french-userlist-user-setpawwz strong, #french-userlist-user-setpawwz span, #tournaments-userlist-user-setpawwz strong em, #tournaments-userlist-user-setpawwz strong, #tournaments-userlist-user-setpawwz span, #casino-userlist-user-setpawwz strong em, #casino-userlist-user-setpawwz strong, #casino-userlist-user-setpawwz span, #packs-userlist-user-setpawwz strong em, #packs-userlist-user-setpawwz strong, #packs-userlist-user-setpawwz span, #pokemongo-userlist-user-setpawwz strong em, #pokemongo-userlist-user-setpawwz strong, #pokemongo-userlist-user-setpawwz span, #linoooonesroom-userlist-user-setpawwz strong em, #linoooonesroom-userlist-user-setpawwz strong, #linoooonesroom-userlist-user-setpawwz span, #swag-userlist-user-setpawwz strong em, #swag-userlist-user-setpawwz strong, #swag-userlist-user-setpawwz span, #thestudio-userlist-user-setpawwz strong em, #thestudio-userlist-user-setpawwz strong, #thestudio-userlist-user-setpawwz span, #inazumaeleven-userlist-user-setpawwz strong em, #inazumaeleven-userlist-user-setpawwz strong, #inazumaeleven-userlist-user-setpawwz span, #damonspalace-userlist-user-setpawwz strong em, #damonspalace-userlist-user-setpawwz strong, #damonspalace-userlist-user-setpawwz span, #marketplace-userlist-user-setpawwz strong em, #marketplace-userlist-user-setpawwz strong, #marketplace-userlist-user-setpawwz span, #anime-userlist-user-setpawwz strong em, #anime-userlist-user-setpawwz strong, #anime-userlist-user-setpawwz span, #sunandmoonhype-userlist-user-setpawwz strong em, #sunandmoonhype-userlist-user-setpawwz strong, #sunandmoonhype-userlist-user-setpawwz span, #help-userlist-user-setpawwz strong em, #help-userlist-user-setpawwz strong, #help-userlist-user-setpawwz span, #socialmedia-userlist-user-setpawwz strong em, #socialmedia-userlist-user-setpawwz strong, #socialmedia-userlist-user-setpawwz span, #wifi-userlist-user-setpawwz strong em, #wifi-userlist-user-setpawwz strong, #wifi-userlist-user-setpawwz span, #competitivebattling-userlist-user-setpawwz strong em, #competitivebattling-userlist-user-setpawwz strong, #competitivebattling-userlist-user-setpawwz span, #ratemyteam-userlist-user-setpawwz strong em, #ratemyteam-userlist-user-setpawwz strong, #ratemyteam-userlist-user-setpawwz span, #smba-userlist-user-setpawwz strong em, #smba-userlist-user-setpawwz strong, #smba-userlist-user-setpawwz span, #noctility-userlist-user-setpawwz strong em, #noctility-userlist-user-setpawwz strong, #noctility-userlist-user-setpawwz span{
+color: #000000 !important;
+}
+.chat.chatmessage-setpawwz strong {
+color: #000000 !important;
+}
+/* COLORS END */
