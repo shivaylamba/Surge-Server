@@ -175,6 +175,7 @@ exports.commands = {
 			"- " + WL.nameColor('Princess Qtie', true) + " (Development)<br />" +
 			"- " + WL.nameColor('Anrin N', true) + " (Development)<br/>" +
 			"<br />" +
+			 "- " + WL.nameColor('SparkyHeliolisk', true) + " (Development)<br />" +
 			"<u><b>Contributors:</b></u><br />" +
 			"- " + WL.nameColor('Snorlax The Rain', true) + " (Manager)<br />" +
 			"- " + WL.nameColor('Pokemon 1920', true) + " (Manager)<br />" +
