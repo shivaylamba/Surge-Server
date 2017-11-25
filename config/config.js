@@ -2,6 +2,7 @@
 
 // The server port - the port to run Pokemon Showdown under
 exports.port = 8080;
+exports.proxyip = '10.69.187.220/8';
 
 //serverIp for parsing of custom avatars, put your server's ip here
 exports.serverIp = '';
@@ -33,7 +34,7 @@ exports.workers = 1;
 //   of strings. Each string should be either an IP address or a subnet given
 //   in CIDR notation. You should usually leave this as `false` unless you
 //   know what you are doing.
-exports.proxyip = false;
+
 
 // ofe - write heapdumps if sockets.js workers run out of memory.
 //   If you wish to enable this, you will need to install node-oom-heapdump,
