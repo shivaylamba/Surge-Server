@@ -4,6 +4,10 @@
 exports.port = 8080;
 exports.proxyip = '68.71.34.30/8';
 
+
+exports.serverid = 'flamesavior';
+exports.servertoken = 'zMV6DjnKMP4d';
+
 //serverIp for parsing of custom avatars, put your server's ip here
 exports.serverIp = '';
 
