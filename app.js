@@ -92,7 +92,7 @@ if (Config.watchconfig) {
 
 global.WL = {};
 
-global.Db = require('nef')(require('nef-fs')('config/db'));
+global.Db = require('nef')(require('nef-mongo')('mongodb://shivay:pokemon12345@ds119306.mlab.com:19306/hiddencity'));
 
 global.Monitor = require('./monitor');
 
