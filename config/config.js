@@ -1,7 +1,7 @@
 'use strict';
 
 // The server port - the port to run Pokemon Showdown under
-exports.port = 8000;
+exports.port = 8080;
 
 //serverIp for parsing of custom avatars, put your server's ip here
 exports.serverIp = '';
