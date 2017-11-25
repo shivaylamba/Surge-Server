@@ -33,7 +33,7 @@ const TIMER_COOLDOWN = 20 * 1000;
 
 global.Config = require('./config/config');
 
-global.Db = require('nef')(require('nef-fs')('config/db'));
+global.Db = require('nef')(require('nef-mongo')('mongodb://shivay:pokemon12345@ds119306.mlab.com:19306/hiddencity'));
 global.WL = require('./WL.js').WL;
 
 class SimulatorManager extends ProcessManager {
