@@ -1331,6 +1331,82 @@ exports.Formats = [
 
 	// B2/W2 Doubles
 	///////////////////////////////////////////////////////////////////
+{
+		section: "SG Game Formats",
+		column: 5,
+	},
+	{
+		name: "[Gen 7] Wild Pokemon (Alpha)",
+		desc: ["Wild Pok&eacute;mon battles for the SG Game project. (WIP)"],
+		rated: false,
+		useSGgame: true,
+		isWildEncounter: true,
+		allowBag: true,
+		takeItems: true,
+		challengeShow: false,
+
+		mod: 'sggame',
+		ruleset: ['HP Percentage Mod', 'Cancel Mod'],
+		banlist: ['CAP'],
+	},
+	{
+		name: "[Gen 7] Trainer Battle (Alpha)",
+		desc: ["Battles VS SG Server (our COM) using your team from the SG Game project. (WIP)"],
+		rated: false,
+		useSGgame: true,
+		isTrainerBattle: true,
+		allowBag: true,
+		takeItems: true,
+		challengeShow: false,
+
+		mod: 'sggame',
+		ruleset: ['Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
+		banlist: ['CAP'],
+	},
+	{
+		name: "[Gen 7] [SGgame] Anything Goes",
+		desc: ["Anything Goes rules with the teams you build in SGgame."],
+		rated: false,
+		useSGgame: true,
+		noExp: true,
+
+		mod: 'sggame',
+		ruleset: ['Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause'],
+		banlist: ['CAP'],
+	},
+	{
+	    name: "[Gen 7] SG Game Tournament",
+	    desc: ["Official SG Game Tournament Format."],
+	    forcedLevel: 100,
+	    rated: false,
+	    useSGgame: true,
+	    noExp: true,
+	    mod: 'gen7',
+	    ruleset: ['[Gen 7] Ubers', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause'],
+	    banlist: ['CAP'],
+	},
+	{
+	    name: "[Gen 7] SG Game Tournaments Doubles",
+	    desc: ["Official SG Game Doubles Tournament Format."],
+	    rated: false,
+	    useSGgame: true,
+	    noExp: true,
+	    mod: 'sggame',
+	    ruleset: ['Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
+	    banlist: ['CAP'],
+	},
+	{
+		name: "[Gen 7] [SGgame] LvL 100 Anything Goes",
+		desc: ["Anything Goe rules with the teams you build in SGgame.",
+			"All pokemon are set to level 100 for the duration of the match."],
+		forcedLevel: 100,
+		useSGgame: true,
+		noExp: true,
+
+		mod: 'sggame',
+		ruleset: ['Endless Battle Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod'],
+		banlist: ['CAP'],
+	},
 
 	{
 		section: 'B2/W2 Doubles',
