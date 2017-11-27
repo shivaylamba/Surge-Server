@@ -1333,7 +1333,7 @@ exports.Formats = [
 	///////////////////////////////////////////////////////////////////
 {
 		section: "SG Game Formats",
-		column: 5,
+		column: 2,
 	},
 	{
 		name: "[Gen 7] Wild Pokemon (Alpha)",
