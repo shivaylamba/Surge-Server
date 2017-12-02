@@ -1,0 +1,66 @@
+{
+  "digitaledge": [
+    {
+      "id": "d1eaa6d0-c66d-11e6-b704-7bfa97d53276",
+      "title": "bulbasaur",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/bulbasaur.gif",
+      "name": "Bulbasaur",
+      "rarity": "Rare",
+      "points": 2
+    },
+    {
+      "id": "583827c0-c674-11e6-b704-7bfa97d53276",
+      "title": "eevee",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/eeevee.gif",
+      "name": "Eevee",
+      "rarity": "Rare",
+      "points": 6
+    },
+    {
+      "id": "95aa22c0-c674-11e6-b704-7bfa97d53276",
+      "title": "eevee",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/eevee.gif",
+      "name": "Eevee",
+      "rarity": "Rare",
+      "points": 6
+    }
+  ],
+  "wgc": [
+    {
+      "id": "d9a67ac0-c66d-11e6-b704-7bfa97d53276",
+      "title": "bulbasaur",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/bulbasaur.gif",
+      "name": "Bulbasaur",
+      "rarity": "Rare",
+      "points": 2
+    },
+    {
+      "id": "90d8fd90-c672-11e6-b704-7bfa97d53276",
+      "title": "gengar",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/gengar.gif",
+      "name": "Gengar",
+      "rarity": "Mythic",
+      "points": 10
+    }
+  ],
+  "shinyhunter712": [
+    {
+      "id": "eb6684a0-c670-11e6-b704-7bfa97d53276",
+      "title": "totodile",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/totodile.gif",
+      "name": "Totodile",
+      "rarity": "Uncommon",
+      "points": 2
+    }
+  ],
+  "bulbsaur": [
+    {
+      "id": "2ae369d0-c67c-11e6-80ed-4b4870ef5c0f",
+      "title": "bulbasaur",
+      "pet": "http://play.pokemonshowdown.com/sprites/xyani/bulbasaur.gif",
+      "name": "Bulbasaur",
+      "rarity": "Rare",
+      "points": 6
+    }
+  ]
+}
